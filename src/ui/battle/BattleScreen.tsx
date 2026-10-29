@@ -67,6 +67,10 @@ export function BattleScreen(props: BattleScreenProps) {
   const [result, setResult] = useState<{ result: 'victory' | 'defeat'; state: BattleState } | null>(null);
   const modeRef = useRef(mode);
   modeRef.current = mode;
+  // Canvas listeners are bound once per session; they call through these refs
+  // so taps and keys always see the current render's state (reach, targets…).
+  const tapRef = useRef<(tile: Pos) => void>(() => {});
+  const cancelRef = useRef<() => void>(() => {});
 
   // ---- mount view + session
   useEffect(() => {
@@ -196,7 +200,7 @@ export function BattleScreen(props: BattleScreenProps) {
       pointers.delete(e.pointerId);
       if (!dragged && downAt && pointers.size === 0) {
         const tile = session.view.pick(p.x, p.y);
-        if (tile) onTileTap(tile);
+        if (tile) tapRef.current(tile);
       }
       if (pointers.size === 0) downAt = null;
     };
@@ -212,7 +216,7 @@ export function BattleScreen(props: BattleScreenProps) {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'q' || e.key === 'Q') session.view.rotateBy(-1);
       if (e.key === 'e' || e.key === 'E') session.view.rotateBy(1);
-      if (e.key === 'Escape' || e.key === 'Backspace') cancel();
+      if (e.key === 'Escape' || e.key === 'Backspace') cancelRef.current();
       if (e.key === '+' || e.key === '=') session.view.setZoom(session.view.cam.zoom + 0.5);
       if (e.key === '-') session.view.setZoom(session.view.cam.zoom - 0.5);
     };
@@ -266,8 +270,8 @@ export function BattleScreen(props: BattleScreenProps) {
         await session.command({ type: 'move', unit: a.uid, to: tile });
         return;
       }
+      // No camera pan here: the confirming second tap must land on the same tile.
       setMode({ k: 'move', target: tile });
-      session.view.focusTile(tile);
       return;
     }
     if (m.k === 'target' && a) {
@@ -286,6 +290,9 @@ export function BattleScreen(props: BattleScreenProps) {
     // Inspect any unit by tapping it.
     setMode((cur) => (cur.k === 'menu' || cur.k === 'none' || cur.k === 'inspect' ? { k: 'inspect' } : cur));
   }
+
+  tapRef.current = (tile) => void onTileTap(tile);
+  cancelRef.current = cancel;
 
   async function confirmAct(): Promise<void> {
     const m = modeRef.current;
