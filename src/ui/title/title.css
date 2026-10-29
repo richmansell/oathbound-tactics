@@ -1,0 +1,12 @@
+.title-screen { background: #000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; }
+.title-bg { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; object-fit: cover; }
+.title-vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 40%, rgba(0,0,0,0.05), rgba(0,0,0,0.75)); pointer-events: none; }
+.title-logo { position: relative; text-align: center; }
+.title-logo h1 { margin: 0; font-size: clamp(48px, 10vw, 104px); letter-spacing: 0.08em; color: #f6e2a8; text-shadow: 0 0 30px rgba(255,180,80,0.35), 0 4px 0 #3a2a10, 0 6px 18px #000; line-height: 1; }
+.logo-sub { font-size: clamp(16px, 3vw, 28px); letter-spacing: 0.6em; color: var(--gold); margin-top: 4px; padding-left: 0.6em; }
+.logo-tag { margin-top: 10px; font-family: var(--font-story); font-style: italic; color: var(--parch-dim); font-size: clamp(15px, 2vw, 20px); }
+.logo-crest { color: var(--gold-2); font-size: 26px; text-shadow: 0 0 12px rgba(255,200,100,0.8); animation: pulse 3s infinite; }
+.title-menu { position: relative; width: min(380px, 90vw); }
+.title-menu .menu-item { font-family: var(--font-title); letter-spacing: 0.04em; font-size: 17px; }
+.title-menu .diff small { font-family: var(--font-body); color: var(--parch-dim); font-size: 13px; letter-spacing: 0; }
+.title-foot { position: absolute; bottom: calc(10px + var(--safe-bottom)); color: rgba(255,255,255,0.35); font-size: 12px; letter-spacing: 0.08em; }

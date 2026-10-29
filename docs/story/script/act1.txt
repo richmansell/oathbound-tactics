@@ -1,0 +1,599 @@
+#############################################################################
+# PROLOGUE
+#############################################################################
+== c1.s01 | The Night of the Striking | loc=aurenne_archive | music=cold_open
+[fade in]
+NARR: In the kingdom of Aldmere, every promise is written down. || Slow, low, storyteller. Let the silences sit.
+NARR: Fealty. Marriage. Debt. Treaty. Each one sworn before a Witness, and kept in the great book of the Ledger.
+NARR: And every promise that is broken... comes back. Hungry.
+[sfx quill_scratch]
+clement{???}.neutral: Edric, of the House of Valcourt. Named in this book on the ninth day of Sealing, in the year five hundred and seventy-one. || Reading aloud from a great book. Gentle, almost fond, like reading to a grandchild.
+clement{???}.neutral: Crowned in the year six hundred and nine. Sworn to keep the realm, that the realm might keep him.
+hooded_scribe.neutral~: Your Grace... he is the king. || Barely audible. The lamp in his hand is shaking.
+clement{???}.neutral: He was. Hold the lamp steady, child. I cannot see the line.
+clement{???}.neutral: Witnessed. || A small pause before and after. No relish at all. Housekeeping.
+clement{???}.neutral~: ...And struck. || The softest word in the game.
+[sfx pen_strike]
+[flash white]
+[shake]
+[sfx thunder]
+[background aurenne_palace]
+edric.hurt~: Lark... where's... Lark... || Dying in his bed, choking on ash, reaching for someone who isn't in the room.
+NARR: That night, the King of Aldmere died of a fever no physician could name.
+[background aurenne_road]
+[music storm]
+[sfx rain]
+maud.determined: Run, little lark. Don't look back. Whatever you hear behind you, don't look back. || Out of breath, soaked, fierce. She is protecting a child with her body.
+lark.sad: Maudie, I can't see the road... I can't see anything...
+maud.determined: Then follow my voice, my darling. Follow my voice. I'm right behind you, I'm right—
+[sfx howl]
+[shake]
+maud.angry!: GO! || Raw. Turning to face something in the dark.
+[sfx hollow_shriek]
+[wait 800]
+[sfx rain]
+hooded_scribe.surprised: The nurse. Witness keep her. || Later. Finding the body in the mud by lantern-light. Shaken.
+hooded_scribe.determined: Spread out. Lanterns along the ditches. She cannot have gone far. She is ten years old and barefoot. || Recovering control; giving orders to unseen men.
+hooded_scribe.neutral: Find her. Gently. His Grace wants her whole. || Calm again. That calm is the scariest thing in the scene.
+[fade out]
+
+#############################################################################
+# ACT ONE — THE LANTERN ROAD
+#############################################################################
+== c1.s02 | Brask's Lanterns | loc=lantern_road | map=map_lantern_road | music=lantern_road
+@ bren 5 9 n; odo 6 9 n; wat 5 10 n; merrit 6 10 n; anselm 5 7 s
+[fade in]
+NARR: Twelve years later. The Lowmarch, on the edge of the Greyfen.
+odo.neutral: Wat. Wat. Are you eating again? || Big voice, mock-stern. He loves these people.
+wat.neutral: No, Captain.
+odo.neutral: Then what's that in your mouth?
+wat.neutral: ...Supper, Captain. || Mouth full. Slow. Utterly sincere.
+merrit.smirk: That's his third supper. He had one at noon and another at the toll bridge.
+wat.neutral: Toll bridge was a snack.
+odo.happy: By my beard. I'm paying a man to guard a tithe wagon and he's eating the tithe!
+anselm.surprised: He's what? Captain Brask, those are counted hens! Every hen is entered in the roll! || Genuinely panicked. About paperwork.
+bren.smirk: Easy, Brother. It's bread. The hens are fine. The hens are having a lovely time. || Dry. First line of the hero: underplayed, amused.
+anselm.neutral: I'll thank you not to joke about the tithe, Master Holloway. It is a sacred obligation.
+bren.neutral: So's supper, if you ask Wat.
+odo.happy: Leave the notary be, lad. First time on the Lantern Road, isn't it, Brother?
+anselm.sad: Is it that obvious?
+merrit.smirk: You've been holding that prayer-book upside down since Tallow Cross.
+[emote anselm sweat]
+anselm.neutral: ...It's a difficult passage.
+anselm.neutral: Why are none of the lanterns lit? It's called the Lantern Road. The Notary-House pays for kept oil every quarter.
+odo.neutral: Oh, the oil gets paid for, Brother. It just never gets as far as the lanterns.
+bren.neutral: Somebody in Tallow Cross has very bright windows.
+anselm.angry: But that would be theft! From the Ledger!
+bren.smirk: Yes. Write it down.
+merrit.neutral: Old Nan in Sallowmere used to say the lanterns weren't for the road at all. Said the hedge-witches lit them, before the Ledger. So folk could swear by them.
+bren.smirk: Old Nan also said eels came from rain. Promises by lamplight. Very romantic. Very free. Worth nothing.
+[face odo w]
+odo.neutral: ... || Odo doesn't laugh. A glance at the brass lantern on his belt.
+bren.surprised: Captain?
+odo.neutral: Nothing, lad. Only that a free promise isn't always worth nothing. Sometimes it's worth exactly what you put in it. || Quiet, unguarded for one line. Then he covers it.
+odo.happy: Like my promise to Wat that he'd get paid this month. Worth nothing at all!
+wat.neutral: Captain.
+odo.happy: Cheer up. After this, there's a real job waiting for us in Tallow Cross. Ledger money. Real Ledger money.
+bren.neutral: Since when does the Ledger hire the likes of us?
+odo.neutral: Since the likes of us are cheap and the fen is wet. Some High Auditor wants an escort to the capital. Forty crowns, they say.
+merrit.surprised: Forty? For forty crowns I'd carry the Auditor's grandmother to the bottom of the sea.
+bren.neutral: Nobody pays forty crowns for an escort. Not unless something's going to try very hard to kill you.
+odo.happy: That's why they pay it, lad!
+[sfx scream]
+[place tamsin 1 6 e]
+[camera 1 6]
+[emote bren !]
+tamsin{???}.angry!: Get back! Get back, you drowned-dog filth! || Off in the fen. Furious more than frightened.
+anselm.surprised: What... what was that?
+bren.determined: Someone's out on the hummocks. There. A girl, with a bow.
+merrit.surprised: And something with her. Witness keep us, look at the reeds moving.
+[sfx howl]
+odo.determined!: Hollows! Lanterns, light up! Wat, the wagon! Merrit, get high! Bren, with me! || Captain's voice. Instantly sober.
+anselm.hurt: Hollows? Here? But the road is blessed! I have the receipt! || Clutching a scroll to his chest. Funny and pitiful at once.
+bren.smirk: Get in the wagon, Brother. Hold your receipt very tight.
+[music battle_hollows]
+
+== c1.s40 | (B1) Odo's Lesson | loc=lantern_road
+odo.neutral: Same as always, lad. Hollows are fast and stupid. Make them come to us, up here on the causeway. || Teaching without seeming to teach.
+odo.neutral: High ground's your friend. Strike from above and you hit harder, and they'll struggle to reach you.
+bren.neutral: I have done this before, Captain.
+odo.happy: Aye, and you nearly lost a leg doing it. Mind your back. A blow from behind can't be dodged.
+odo.determined: And stay near my lantern. Hollows hate the light.
+bren.neutral: Right. Kill the dogs, stay in the light, don't die. I like it. Simple.
+
+== c1.s41 | (B1) The Poacher | loc=lantern_road
+tamsin.angry!: Oi! Lanterns! They're coming round your left, through the reeds! Are you blind as well as slow? || Yelling across the fen between shots.
+merrit.smirk: Charming. I think I'm in love.
+odo.happy: Keep shooting, girl! We'll keep them off you!
+tamsin.angry: I don't need keeping!
+
+== c1.s42 | (B1) Just a Scratch | loc=lantern_road
+bren.surprised: Captain! You're bleeding!
+odo.happy: Just a scratch, lad. Mostly ribs. || Wheezing, cheerful, not fooling anyone.
+odo.determined: Mind your own hide. That one's got your scent.
+
+== c1.s43 | (B1) The Last One | loc=lantern_road
+anselm.sad~: Witness keep me, Witness keep me, I'll never complain about the oil again... || Muffled, from inside the wagon.
+wat.neutral: Last one.
+bren.determined: Finish it. Wat's not the only one who wants his supper.
+wat.happy: Thank you, Bren.
+
+== c1.s03 | The Poacher | loc=lantern_road | map=map_lantern_road | music=after_battle
+@ bren 5 8 w; odo 6 8 w; wat 5 9 n; merrit 6 9 n; anselm 5 6 s; tamsin 2 6 e
+[walk tamsin 4 8]
+odo.happy: That's a good arm you've got, girl. Where does a fen-rat learn to shoot like that?
+tamsin.angry: From not starving. Where does an old man learn to talk so much? || Prickly. Defensive. Hasn't been thanked in years and doesn't want to start.
+odo.happy: Ha! From not dying.
+bren.neutral: You're welcome, by the way.
+tamsin.smirk: For what? I had them.
+bren.neutral: You had five Hollows and three arrows.
+tamsin.neutral: Two arrows. And a knife. And a temper.
+merrit.smirk: She's not wrong about the temper.
+anselm.surprised: Is it over? Are they gone? Truly gone?
+bren.neutral: For tonight.
+anselm.neutral: Then the Witness be thanked. And... excuse me, young woman. Is that a hen under your arm?
+tamsin.neutral: No.
+anselm.angry: It's clucking.
+tamsin.smirk: It's a very small dog. || Deadpan. Not even trying.
+odo.happy: Let her keep it, Brother! Call it her fee. The Lanterns will make up the count.
+anselm.sad: That isn't how the roll works...
+merrit.neutral: Where did they come from, though? Hollows don't come this far west. Not usually.
+anselm.neutral: They come from a broken oath. That's all a Hollow is: the debt of a sworn promise, made manifest. || Reciting his lessons; it steadies him.
+anselm.neutral: As the Canon has it, "Pay what you owe, and walk in the light." Somewhere near here, someone has broken their word.
+tamsin.angry: Somewhere near here is Sallowmere. Or it was.
+bren.neutral: The burned village. Out past the old weir.
+tamsin.neutral: My village. Hollows every winter for ten years. Then two years back the Ashguard came and burned it to stop them.
+tamsin.angry: Didn't stop them. There's just nobody left out there to eat, so now they come up to the road. || Bitterness so old it has gone flat.
+anselm.sad: I'm sorry. Truly. But the Canon is very clear. Hollows only come where an oath has been broken. Someone in Sallowmere must have...
+tamsin.angry: Must have what? Sworn something? With what?
+tamsin.neutral: My village never swore anything, Brother. Couldn't afford the ink. || THE seed line of the saga. Flat, tired, not shouted.
+[emote anselm ...]
+anselm.sad: That... that isn't...
+bren.neutral: Let it lie, Brother. Nobody's settling the Canon in a bog tonight.
+odo.neutral: Where are you headed, girl?
+tamsin.neutral: Tallow Cross.
+odo.neutral: So are we.
+tamsin.neutral: There's an Ashguard company riding down from the north. I mean to see their captain's face.
+bren.neutral: And then what?
+tamsin.determined: Then I'll know it. || Simple. It's a threat.
+odo.neutral: Hm. Well, you'll walk with us, and welcome. And if you keep that bow pointed at Hollows instead of at us, there's pay in it.
+tamsin.angry: I'm not a sellsword.
+odo.happy: Nor's Bren, most days.
+bren.smirk: Thank you, Captain.
+tamsin.neutral: ...How much pay?
+odo.happy: Ha! Now she's a sellsword.
+tamsin.neutral: Tamsin. Tamsin Reed. Don't make a whole thing of it.
+bren.neutral: Bren.
+tamsin.smirk: I'll call you Lantern. Easier to remember.
+
+== c1.s04 | The Drowned Lantern | loc=drowned_lantern | music=tavern
+[fade in]
+NARR: Tallow Cross. The Drowned Lantern.
+odo.neutral: Now remember. Let me do the talking. Ledger men like a firm handshake and a clean collar.
+merrit.smirk: We've got a handshake.
+bren.neutral: Which of us has a collar?
+wat.neutral: I've got a collar.
+bren.neutral: That's a bib, Wat.
+morrow.neutral: Captain Brask. You are late. || Doesn't look up from his book. Quiet, exact. Never raises his voice in the whole game.
+odo.neutral: Hollows on the road, your... Auditor. High Auditor. Your Honour.
+morrow.neutral: "Auditor" will do. Sit. You smell of the fen. It is not your fault.
+morrow.neutral: I am Ignace Morrow, High Auditor of this province. You come recommended, Captain. You are cheap, you are discreet, and you are still alive.
+odo.happy: Two out of three's the company motto.
+morrow.neutral: Which two? || Deadpan. Genuinely asking.
+odo.neutral: ...Depends on the week.
+morrow.neutral: My novice will read you the terms. Sister?
+hesper.neutral: Yes, Brother Morrow.
+bren.surprised: ...Hess? || The floor drops out from under him. Very quiet.
+hesper.surprised: ... || Freezes mid-step. The polish slips for one heartbeat.
+hesper.neutral: Brother Holloway. Good evening. || Recovering. Formal. Far too formal.
+bren.surprised: Brother Holloway? It's me. It's Bren. You used to put frogs in my bed.
+hesper.smirk: I was eleven. You deserved every frog.
+hesper.happy: ...Hello, Bren. || A real smile breaks through. She tucks it away again almost at once.
+tamsin.neutral: Who's the candle?
+merrit.smirk: Oh, this is better than supper.
+morrow.neutral: You know each other. || Not a question. He is filing it.
+hesper.neutral: We were raised in the same house, Brother. Saint Verity's Charity, in Millbrook.
+morrow.neutral: How fortunate. Sister Hesper is the finest novice of her year. She will be a Witness by spring.
+bren.smirk: Course she will. She was the finest at everything. It was exhausting.
+hesper.smirk: And you were the finest at climbing out of windows.
+bren.neutral: Someone had to be.
+odo.neutral: Begging your pardon, Sister. The terms?
+hesper.neutral: Of course. "The free company styled Brask's Lanterns shall escort one reliquary, sealed, from Saint Verity's Charity at Millbrook to the Archive at Aurenne." || Reading a legal form; she is good at this and knows it.
+hesper.neutral: "Together with its keeper, the novice Hesper Vane. By the fen road and the Sallow Ford, and by no other way."
+odo.neutral: The fen road? The King's Road is quicker. And drier.
+morrow.neutral: The King's Road is full of the Regent's soldiers, Captain. The Ledger prefers not to be questioned by men with torches.
+bren.neutral: What's in the box?
+morrow.neutral: Records.
+bren.neutral: Records.
+morrow.neutral: Old ones. Of no interest to anyone but the Archive.
+bren.neutral: And yet you're paying forty crowns to get them there.
+morrow.neutral: Records are cheap, Brother Holloway. Arriving is expensive.
+hesper.neutral: "In consideration, the Ledger shall pay forty crowns of gold upon delivery, and shall shelter the company under the Witness's protection for the road."
+odo.happy: Forty crowns. I could kiss you, Sister.
+hesper.neutral: Please don't.
+morrow.neutral: Then we shall bind it. Sister, you will witness.
+hesper.surprised: I... Brother, I've never witnessed a contract alone.
+morrow.neutral: You have read the forms a thousand times. Tonight you read them once more. Aloud.
+[sfx ink]
+hesper.determined: Before the Witness who sees every promise: do you, Odo Brask, swear for your company to keep these terms? || Her first real rite. Nervous, then growing into it.
+odo.neutral: I do. On my Naming.
+hesper.determined: And do you, Ignace Morrow, swear for the Ledger to keep them in turn?
+morrow.neutral: I do.
+hesper.neutral: Then sign, and be written. Brother Holloway? Your name, for the company roll.
+bren.neutral: Bren Holloway.
+[sfx quill]
+hesper.surprised: The ink won't take. It's running right off the page.
+morrow.neutral: Of course it will not. He is not in the Ledger. || Mild, factual, as if remarking on the rain.
+bren.neutral: Never was. The prioress never paid my Naming. Didn't seem worth two marks.
+hesper.sad: Bren... I didn't know.
+bren.neutral: Why would you? It's not the sort of thing you put in a letter.
+bren.smirk: Not that anybody wrote any letters. || A jab. He means it more than he'd admit.
+hesper.hurt: ... || That lands. She looks down at the page.
+odo.neutral: Here. I'll sign for the lad. Company's my name, anyway.
+hesper.neutral: ...Witnessed. And kept.
+[sfx chime]
+morrow.neutral: Admirable. We leave for Millbrook at first light. I shall ride ahead; the prioress is expecting me.
+morrow.neutral: Sister. A word, before you retire.
+tamsin.neutral: So. Lantern. You and the candle.
+bren.neutral: Me and the candle what?
+tamsin.smirk: That's what I'm asking.
+bren.neutral: We grew up together. That's all.
+merrit.smirk: He's lying. Look, his ears have gone red.
+bren.angry: My ears are always red. It's cold.
+odo.happy: It's warm in here, lad.
+bren.neutral: ...I'm going to bed.
+
+== c1.s05 | Two Halves | loc=tallow_cross_roof | music=rooftop
+[fade in]
+NARR: Later. The roof of the Drowned Lantern.
+bren.surprised: ...You're on the roof.
+hesper.smirk: You still climb out of windows.
+bren.neutral: You're on the roof too.
+hesper.neutral: I used the stairs. Like a person. There's a door, Bren. There has always been a door.
+bren.smirk: Doors are for people who get invited.
+bren.neutral: Eight years.
+hesper.neutral: Eight years, four months. Not that I... I'm a scribe. I count things. || Caught out. Covering.
+bren.neutral: You look like them now. The Ledger people. You even stand like them.
+hesper.neutral: How do they stand?
+bren.smirk: Like they're waiting for somebody to sign something.
+hesper.smirk: And you look like a sellsword. You even smell like one.
+bren.neutral: Thank you. I've worked hard on it.
+hesper.neutral: Is it a good life? The company?
+bren.neutral: It's a life. Odo's good. The road's bad. The pay's worse. We walk people through the fen and most of them get home.
+bren.neutral: Sometimes we walk a Notary out to collect hearth-pennies. That's the bad part.
+hesper.neutral: The hearth-penny is a lawful levy.
+bren.neutral: I watched one take a widow's pot because she was a penny short. Her cooking pot, Hess.
+hesper.sad: That's not the Ledger. That's one bad Notary.
+bren.neutral: That's what they all say. "One bad Notary." There's an awful lot of him about.
+hesper.determined: Then he should be audited. That's what Auditors are for. That's what I'm for.
+hesper.determined: Brother Morrow says in five years I could hold a district. In ten, a province. I could fix it, Bren. From the inside, where it counts. || She believes this with her whole heart.
+bren.neutral: You really believe that.
+hesper.neutral: I have to believe something. You can't just stand outside throwing stones at the windows.
+bren.smirk: I'm very good at throwing stones.
+hesper.smirk: I remember. Mother Agathe's chapel window. Twice.
+bren.neutral: Are you happy? There, in the Archive?
+hesper.neutral: ...Mostly. It's quiet. There's every book in the world. Nobody puts frogs in my bed.
+hesper.sad: Can I tell you something strange? When I took my novice vows, the ink wouldn't hold either. My name ran off the page like rain off a roof.
+bren.surprised: Like mine tonight.
+hesper.neutral: Brother Morrow said it was a bad batch of ink. He wrote it in again himself. I suppose it's fine.
+bren.neutral: You suppose.
+hesper.neutral: I suppose.
+[sfx hum]
+hesper.neutral~: Hush now, little lark, the lamps are lit for you. Fly home across the water... fly home the long night through. || SUNG softly, half under her breath. She doesn't realise she's doing it.
+bren.neutral: What's that?
+hesper.surprised: What's what?
+bren.neutral: That song. You used to hum it in your sleep. Agathe always thought you must have learned it before you came to us.
+hesper.neutral: I don't know where I learned it. I don't remember anything from before Millbrook. You know that.
+bren.neutral: I know.
+hesper.neutral: Do you still have it?
+bren.neutral: Have what?
+hesper.smirk: Don't. You know what.
+[sfx coin]
+bren.neutral: ...Course I do. || He pulls a half-penny on a leather thong out of his shirt. Embarrassed to be caught keeping it.
+hesper.happy: So do I.
+bren.smirk: On a chain. Very fancy.
+hesper.smirk: I'm a lady of the Ledger now. We don't wear string.
+bren.neutral: Do you remember the night we...
+hesper.neutral: Every word.
+[fade out]
+
+== c1.s06 | Ten Years Ago | loc=millbrook_roof_memory | music=memory
+[fade in]
+NARR: Ten years ago. The roof of Saint Verity's Charity, Millbrook.
+hesper_young.angry: It's not fair. Sister Margery says a promise doesn't count unless a Witness writes it down. || Twelve. Furious at the injustice of the universe.
+bren_young.neutral: So get a Witness.
+hesper_young.angry: Witnesses cost a penny a line, Bren. And you have to be Named to swear. We're not Named. We're nobody. We can't even promise properly.
+bren_young.neutral: Says who?
+hesper_young.neutral: Says the Canon. "A word unwitnessed is wind."
+bren_young.smirk: The Canon says a lot of things. The Canon says no eating on Inkfast, and I saw Sister Margery eat a whole pie.
+hesper_young.smirk: ...It was a small pie.
+bren_young.smirk: It was a big pie.
+bren_young.determined: Right. Then we'll do it ourselves. You be my witness. I'll be yours. || Thirteen. He has just decided to fix the universe.
+hesper_young.surprised: That's not how it works.
+bren_young.neutral: How do you know? Have you ever tried?
+hesper_young.neutral: ...No.
+bren_young.neutral: Well, then.
+[sfx knife]
+bren_young.determined: Hold still. I've got a penny. I'm going to cut it in half.
+hesper_young.surprised: With the bread knife? Bren, you'll take your finger off...
+bren_young.hurt: Ow.
+hesper_young.angry: You took your finger off!
+bren_young.smirk: I did not, it's right here. It's only leaking a bit. There. Half for you.
+hesper_young.smirk: They're not even halves. Yours is bigger.
+bren_young.neutral: Then you have the bigger one. I don't care.
+hesper_young.neutral: What do we promise?
+bren_young.neutral: I don't know. You're the clever one.
+hesper_young.neutral: ...They write down what we are. "Foundling." "Unrecorded." "No family." Like that's all there is to us.
+hesper_young.determined: So we promise that whatever they write about us, we'll know the truth. We'll keep it for each other.
+bren_young.determined: Whatever they write about us, we keep each other's truth. || Solemn as a child can be. Which is very.
+hesper_young.determined: I'll be your witness.
+bren_young.determined: And you'll be mine.
+hesper_young.determined: I witness you.
+bren_young.determined: And I you.
+[sfx candle_flare]
+hesper_young.surprised: Did the lamp just...
+bren_young.neutral: Wind.
+hesper_young.smirk: There isn't any wind.
+bren_young.smirk: Then it was the Witness. Must be a Lowmarch one. Doesn't charge.
+[fade out]
+[background tallow_cross_roof]
+[music rooftop]
+[fade in]
+hesper.smirk: You still can't cut straight. || Present day. Warm.
+bren.smirk: It's a fair half.
+
+== c1.s07 | Miller's Cut | loc=millers_cut | map=map_millers_cut | music=road_day
+@ odo 5 12 n; bren 6 12 n; hesper 5 13 n; tamsin 6 13 n; wat 4 13 n; merrit 7 13 n
+[fade in]
+NARR: The King's Road, south of Tallow Cross. Miller's Cut.
+odo.neutral: Don't like it. Look at those banks. This lane was dug by a man who loved an ambush.
+merrit.neutral: It was dug by a miller, Captain.
+odo.neutral: Aye, well. Millers can love an ambush.
+hesper.neutral: Brother Morrow rode this way this morning without any trouble.
+tamsin.smirk: Brother Morrow had six Vergers and a horse. We've got a cart and Wat.
+wat.neutral: I'm very big.
+tamsin.smirk: You are very big.
+bren.neutral: Hess. Stay behind me.
+hesper.neutral: I'm a trained cleric, Bren. I can look after myself.
+bren.neutral: I know. Stay behind me anyway.
+odo.neutral: Now, if I were a bandit, I'd wait till we were halfway down, then I'd come over the top of that bank, and... ah.
+[place jory 11 1 s]
+[camera 11 1]
+[sfx whistle]
+jory{???}.happy: Afternoon, friends! Lovely day for it. Mind the potholes; we dug them ourselves. || Big, charming, theatrical. Enjoying himself enormously.
+bren.neutral: ...Of course.
+jory.happy: Jory Tenpenny, at your service. Or rather, you at mine. We'll be having the Ledger cart, if it's all the same to you.
+odo.neutral: It's not all the same to me, son. It's empty. We're on our way to fill it.
+jory.smirk: Empty, is it? That's what all the carts say.
+jory.neutral: We've heard the Ledger is moving rolls out of Millbrook. Debt-rolls. Hearth-rolls. Our names, all lined up, all owing.
+jory.determined: Rolls burn, friend. That's the lovely thing about paper.
+hesper.angry: Those records belong to the Witness. Burning them is sacrilege.
+jory.happy: Is it now? Oh, look, she's a Ledger girl. Afternoon, Sister! Do you know how much Tenpenny owes your Witness? Neither do we. Nobody will tell us.
+hesper.determined: As the Canon has it, "Pay what you owe, and walk in the light."
+jory.smirk: As Tenpenny has it, "Pay what you owe and starve in the dark." Doesn't scan as nice.
+bren.neutral: The cart's empty. Go home.
+jory.neutral: Now, I'm a reasonable man. Reasonable men rob reasonable people. Are you reasonable?
+bren.determined: No.
+jory.sad: ...Ah. Pity. Lads! The tall one's unreasonable! || Genuine disappointment, then a shout to the banks.
+[music battle_bandits]
+
+== c1.s45 | (B2) Up the Banks | loc=millers_cut
+odo.determined: They've got the high banks. Get up there, by the earth steps either side. Don't fight them from the bottom of a ditch!
+hesper.determined: I'll keep you all standing. Try not to make it difficult.
+bren.neutral: No promises.
+hesper.smirk: Very funny.
+
+== c1.s46 | (B2) Habit | loc=millers_cut
+struck_brigand.surprised: We don't want to kill you! We only want the cart! || Panicky, apologetic, swinging an axe.
+bren.angry: Then stop swinging that at my head!
+struck_brigand.sad: Sorry! Habit!
+hesper.sad: They're starving, Bren. Look at them. Look at their boots.
+bren.neutral: I know. Doesn't make the axe any blunter.
+
+== c1.s47 | (B2) Not In the Books | loc=millers_cut
+bren.angry!: Hess!
+hesper.hurt: I'm fine! I'm... that hurt rather more than the books suggested.
+
+== c1.s48 | (B2) Yielding | loc=millers_cut
+jory.hurt: Right! Yielding! I'm yielding! That's me yielding, look, hands up, very obvious! || Fast, breathless, not remotely ashamed.
+struck_brigand.surprised: Jory's down! Run for it!
+jory.angry: I'm not down, I'm yielding! There's a difference!
+
+== c1.s08 | The Struck | loc=millers_cut | map=map_millers_cut | music=tension_low
+@ jory 6 9 s; bren 6 10 n; hesper 5 10 n; odo 7 9 w; tamsin 5 11 n
+jory.sad: You could've just let me have the cart, you know. Would've saved everyone a lot of bruising.
+odo.neutral: Why Ledger carts, son? There's richer pickings on the King's Road.
+jory.neutral: Richer pickings don't carry our names.
+jory.neutral: Tenpenny's out in the deep fen. Twenty houses on stilts. Hollows every winter, seven winters running. Took my Nell, three years back. || The comedy drains out of him.
+jory.neutral: And not one of us ever broke an oath, friend. Not one. We can't. We're not even in the book.
+hesper.neutral: Then the Hollows can't be yours. Hollows only come from a broken oath.
+jory.smirk: That's what I said! And do you know what the Notary told us? He said we owe for a lord's sin.
+jory.angry: Didn't say which lord. Didn't say which sin. Just doubled the hearth-penny and rode off.
+tamsin.neutral: Same as Sallowmere. || Quietly. Something connects for her.
+hesper.sad: That can't be right. The Ledger doesn't punish people for other people's oaths. That's not how it works.
+jory.neutral: No, Sister? Then how does it work?
+hesper.neutral: ... || She opens her mouth to recite the answer and finds she doesn't have one.
+[sfx horses]
+[place morrow 6 13 n]
+[walk morrow 6 11]
+morrow.neutral: Captain Brask. I heard you had been delayed by brigands.
+odo.neutral: Delayed, Auditor. Not stopped.
+morrow.neutral: Good. This one is the leader? Hang him from the mill. It has a sturdy beam.
+jory.surprised: Now hang on, friend, let's not be hasty...
+hesper.surprised: Brother Morrow!
+morrow.neutral: Robbery of the Ledger on the King's Road. The account is plain, Sister. It balances only one way.
+CHOICE bren: Morrow wants Jory hanged.
+- "He's our prisoner. Our say." => flag:c1_jory_defended goto:defend
+- (Say nothing.) => flag:c1_jory_silent goto:silent
+[label defend]
+bren.determined: He's our prisoner, Auditor. We took him. Our say.
+morrow.neutral: The unrecorded man would like a say. How novel. || Not angry. Curious, as at a talking dog.
+odo.neutral: Lad's right, by the contract. We guard the cart. Prisoners taken in its defence are ours.
+morrow.neutral: Captain Brask has read his contract. Remarkable.
+[goto mercy]
+[label silent]
+bren.neutral: ... || He says nothing. It costs him.
+tamsin.angry: Lantern. Say something.
+bren.neutral: It's not my call.
+tamsin.angry: It's never anybody's call. That's how folk get hanged.
+[label mercy]
+hesper.determined: Brother. Please. He yielded. The Canon says "A debt paid in blood is a debt paid twice." Let the Notary at Tallow Cross try him.
+morrow.neutral: ...
+morrow.neutral: For your sake, Sister. Very well. Bind him to the cart. He goes to the Notary-House when we return.
+jory.happy: Bless you, Sister! Bless your whole lovely book!
+morrow.neutral: Do not mistake mercy for forgiveness, thatcher. It is only a later date in the ledger.
+[fade out]
+NARR: The next morning, Jory Tenpenny was gone. The rope had been cut, very neatly, with a poacher's knife.
+[fade in]
+bren.neutral: Tamsin.
+tamsin.neutral: What?
+bren.neutral: The rope.
+tamsin.smirk: He's fen. Fen don't hang for the Ledger. Not while I've got a knife.
+bren.smirk: ...Right.
+morrow.neutral: The thatcher has fled. It is noted. || No anger. He sounds, if anything, faintly pleased.
+
+== c1.s09 | Saint Verity's Charity | loc=millbrook | map=map_millbrook | music=millbrook
+@ agathe 6 4 s; morrow 8 4 s; bren 6 10 n; hesper 7 10 n; odo 6 12 n; tamsin 7 12 n
+[fade in]
+NARR: Millbrook. Saint Verity's Charity.
+[walk bren 6 6]
+[walk hesper 7 6]
+bren.neutral: It's smaller.
+hesper.neutral: We were smaller.
+bren.smirk: The roof's lower. I used to think that roof was halfway to the moon.
+hesper.smirk: You thought a lot of things were halfway to the moon. The bell-cote. The pear tree. Sister Margery.
+bren.neutral: Sister Margery was halfway to the moon.
+agathe.happy: Hesper? Hesper, child, is that you? || Old, delighted, frightened underneath.
+hesper.happy: Mother Agathe!
+[walk agathe 7 5]
+[emote agathe heart]
+agathe.sad: Look at you. Look at you in the white. Oh, my girl.
+agathe.sad~: Forgive me, child. || Whispered into Hesper's shoulder. Hesper barely hears it.
+hesper.surprised: Mother? Forgive you for what?
+agathe.neutral: For... for not writing more. I'm old. My hands shake. || A lie, badly told.
+agathe.happy: And Bren! Little Bren Holloway, with a sword. Witness help us all.
+bren.smirk: Mother.
+agathe.smirk: You still owe me for the chapel window.
+bren.neutral: Both of them?
+agathe.smirk: Both of them.
+morrow.neutral: Mother Agathe. The reliquary, if you please. We should not linger.
+agathe.sad: Yes. Of course, Brother. I have it ready. It's been ready a long time.
+[sfx box]
+odo.neutral: Heavy thing, for some old records.
+morrow.neutral: Iron bands, Captain. The truth must be protected from the weather.
+bren.neutral: Mother. While we're here, could I see my entry? In the intake book. I've never seen it.
+agathe.sad: Your entry...
+bren.neutral: Where I was found. What I was wrapped in. Anything.
+agathe.sad: There's no entry for you, Bren. There never was.
+agathe.sad: You came in a fish basket, on the step. I meant to write you down. I meant to pay your Naming. There was a bad winter, and then another.
+agathe.sad: You were a good boy. It didn't seem to matter.
+bren.neutral: ...Right. || Lightly. Far too lightly.
+hesper.sad: Bren...
+bren.smirk: It's fine. Saves on ink.
+[sfx horn]
+[emote tamsin !]
+odo.surprised: Horns. That's not a village sound.
+[place ilka 6 12 n]
+[place ashguard_sergeant_npc 7 13 n]
+[walk ilka 6 10]
+ilka.neutral: By order of the Lord Regent. This house will surrender the Millbrook register to the Ashguard. || Flat. Disciplined. She has done this many times.
+ilka.neutral: No one need be hurt. I am not here for the children.
+morrow.neutral: Captain. This house and everything in it belongs to the Ledger. The Regent has no writ here.
+ilka.neutral: The Regent has two hundred soldiers in the Lowmarch, Auditor. That is his writ.
+morrow.neutral: The Witness sees you, Captain.
+ilka.neutral: Good. Then it can watch me take the box.
+[emote tamsin anger]
+tamsin.angry~: ...Her. || Barely breathing.
+bren.surprised: Tamsin?
+tamsin.angry: Grey cloak. Scar on the cheek. I'd know her in the dark. I did know her, in the dark, with my village burning.
+odo.determined: Inside the walls, all of you! Hold the gate!
+bren.determined: Hess. Get Mother Agathe and the children into the chapel.
+hesper.determined: And then I'm coming straight back out to heal you.
+bren.neutral: I know.
+[music battle_ashguard]
+
+== c1.s50 | (B3) Ultimatum | loc=millbrook
+ilka.neutral: Last chance, sellsword. Give me the box and I leave this house standing.
+odo.neutral: Captain, I've had a long week, and that box is worth forty crowns to me. Come and get it.
+ilka.neutral: Understood. Ashguard: ash and order. Take the gate.
+
+== c1.s51 | (B3) Sallowmere | loc=millbrook
+tamsin.angry!: YOU! Sallowmere! Do you remember Sallowmere, Captain? || Screamed across the yard. Two years of it.
+ilka.neutral: I remember every village I have ashed.
+tamsin.angry!: Then remember this one!
+ilka.neutral: ...I do. || Quiet. It costs her something. Nobody but the player hears it.
+
+== c1.s52 | (B3) The East Wall | loc=millbrook
+ashguard_sergeant_npc.determined!: Breach on the east wall, Captain! We're through!
+bren.surprised: There's a hole in the east wall?
+hesper.smirk: You made it. With a handcart. When you were fourteen.
+bren.neutral: ...Right. Sorry, Mother.
+
+== c1.s53 | (B3) That Face | loc=millbrook
+ilka.surprised: ... || She has just seen Hesper clearly for the first time. Frozen mid-swing.
+ilka.surprised~: That face.
+hesper.neutral: Captain?
+ilka.neutral: Who are you, Sister?
+hesper.angry: A novice of the Ledger. And you're bleeding on my mother's cabbages.
+ilka.determined: ...Hold the line! || Snapping back into command, rattled.
+
+== c1.s54 | (B3) Fall Back | loc=millbrook
+ilka.hurt: Enough. Ashguard, fall back to the road.
+ashguard_sergeant_npc.surprised: Captain, we can still take them...
+ilka.neutral: I said fall back, Hobb.
+ilka.neutral: This isn't finished, Auditor. Ash and order. || To Morrow. A promise.
+
+== c1.s55 | (B3) Right Where I'm Needed | loc=millbrook
+bren.angry: Hess, get back!
+hesper.angry!: Don't you dare tell me to get back! I'm stood right where I'm needed, Bren 'Olloway! || ACCENT SLIP: full Lowmarch, dropped aitch. She doesn't notice; Bren does.
+
+== c1.s10 | The Lantern's Story | loc=millbrook_chapel | music=night_quiet
+[fade in]
+NARR: That night. The chapel of Saint Verity's Charity.
+odo.neutral: Can't sleep either, lad?
+bren.neutral: Kept seeing grey cloaks.
+odo.neutral: Aye. Me too.
+odo.neutral: Two hundred Ashguard in the Lowmarch, and the Regent sends his best captain to a foundling house. For a box of records.
+bren.neutral: Morrow says they're old records.
+odo.neutral: Morrow says a lot of things without sweating. Never trust a man who doesn't sweat, lad. That Auditor's dry as a sermon.
+bren.smirk: You sweat enough for both of you.
+odo.happy: That's honesty, that is. Leaking out.
+bren.neutral: Can I ask you something?
+odo.neutral: You just did.
+bren.neutral: The lantern. Eight years, and I've never seen it go out. Not in rain, not in the fen. You never let it out of reach.
+odo.neutral: Ah. That.
+odo.neutral: When I was younger than you, there was an old woman who kept a chapel at a crossroads, up on Hollin Tor. Saint Ebbe's. It's a ruin now. || Storytelling voice. Softer than we've heard him.
+odo.neutral: Folk who couldn't pay the Ledger used to walk up there at night. Fen folk. Struck folk. Lovers whose families said no.
+odo.neutral: She'd light this lamp and listen while they made their promises. Then she'd say, "I witness you." That's all.
+bren.neutral: A hedge-witch.
+odo.neutral: A Lanternbearer, she'd have said. And she'd have clipped your ear for "hedge-witch."
+bren.neutral: And it worked? The promises?
+odo.neutral: Depends what you mean by worked. The ones who meant it kept them. Same as anywhere.
+odo.neutral: When she died she left me the lamp. Said it'd keep burning so long as somebody near it was keeping their word.
+bren.smirk: And it's never gone out. With you carrying it.
+odo.happy: Ha! Means I'm a better man than I look, lad. Or you are.
+odo.neutral: Every promise needs a witness. Even the cheap ones. Especially the cheap ones. || He'll say a version of this again, dying. Play it light here.
+[sfx door]
+morrow.neutral: Captain Brask. We leave before dawn. Not by the King's Road; the Ashguard will be watching it. We go east, by the fen road and the Sallow Ford.
+odo.neutral: The ford floods this time of year.
+morrow.neutral: Then we shall get our feet wet. Good night, Captain. Brother Holloway.
+bren.neutral: Just Bren.
+morrow.neutral: Yes. Just Bren. || He means: you have no name that counts.
+
+== c1.s11 | The Captain's Letter | loc=camp_ashguard | music=ashguard_theme
+[fade in]
+NARR: The Ashguard camp, outside Millbrook.
+ashguard_sergeant_npc.neutral: Captain. The surgeon wants a look at that arm.
+ilka.neutral: The surgeon can look at it when I'm dead. Take this down.
+ilka.neutral: To the Lord Regent, from Captain Stroud. The Ledger holds the Millbrook register. I attempted to recover it, and I failed.
+ilka.neutral: The Auditor Morrow has hired a free company. Lowmarch sellswords. Six or seven.
+ashguard_sergeant_npc.surprised: Seven sellswords beat us, Captain?
+ilka.neutral: Seven sellswords and a cleric. Write it down, Hobb. We don't lie in reports.
+ashguard_sergeant_npc.neutral: Captain.
+ilka.neutral: Leave me.
+[sfx paper]
+ilka.sad: ... || Alone. She unfolds a letter and rubs a grey smudge from the seal between her fingers. Ash.
+ilka.sad~: You're getting worse, my lord. It's on your seal now.
+ilka.sad~: She had green eyes. Valcourt eyes. She has her mother's face, my lord. I would stake my cloak on it. || Half report, half prayer.
+ilka.determined: Hobb! Two riders to Corvel. Tonight.
+[sfx fire]

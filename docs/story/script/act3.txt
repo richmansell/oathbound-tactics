@@ -1,0 +1,290 @@
+#############################################################################
+# ACT THREE — THE SPLIT PENNY
+#############################################################################
+== c1.s19 | The Eve of the Tor | loc=hollin_camp | music=campfire
+[fade in]
+NARR: Below Hollin Tor. The last night.
+[sfx fire]
+hesper.neutral~: Hush now, little lark, the lamps are lit for you... || Humming by the fire, not thinking about it.
+aldous.surprised: ... || He stands up very slowly.
+aldous.neutral: Where did you learn that song, Sister?
+hesper.neutral: I don't know. I've always known it. Why?
+aldous.neutral: It is a Crownlands song. A nursery song. I have not heard it in twelve years.
+aldous.neutral: Excuse me. I think I will walk a little. || Barely holding together. He walks off into the dark.
+tamsin.neutral: Where's the old knight off to?
+bren.neutral: Walking. He does that.
+tamsin.neutral: Lantern. What you said at Tenpenny, about keeping our truth whatever they write. Did you mean it?
+bren.neutral: Wouldn't have said it otherwise.
+tamsin.neutral: Hm.
+tamsin.neutral: My brother. Col. When Sallowmere burned, he went back in for the Pettit children. Didn't come out. || Very matter-of-fact. Looking at the fire, not at him.
+tamsin.neutral: I held his hand at the end. Outside, in the mud. I told him I'd make the one who did it kneel. I swore it.
+tamsin.neutral: That northern woman says that counts. That I've been carrying an oath two years and never knew.
+bren.neutral: Does it feel like it counts?
+tamsin.sad: It feels like a stone in my chest that gets heavier every winter.
+bren.neutral: The captain. Stroud.
+tamsin.angry: She gave the order. I saw her.
+bren.neutral: Jory's village had Hollows too. Never broke an oath. Nobody burned it. It just... owed.
+tamsin.neutral: What are you saying?
+bren.neutral: Nothing yet. Only that I'm not sure who it is that ought to be kneeling.
+tamsin.smirk: ...I hate it when you think, Lantern. It's very annoying.
+jory.neutral: Writing again, Eira? Who to?
+eira.neutral: Home.
+jory.neutral: Long way, the north. Who's at home?
+eira.neutral: My father. He likes to hear what I learn.
+jory.smirk: Proud of you, is he?
+eira.neutral: He is... attentive. || A very carefully chosen word.
+eira.neutral: How many marks are on your arms now, Jory?
+jory.neutral: Two hundred and twelve. Two hundred and thirteen after tomorrow, if the Witness is kind.
+eira.neutral: And if it is not?
+jory.smirk: Then somebody else can do the counting.
+hesper.neutral: Bren.
+bren.neutral: Can't sleep?
+hesper.neutral: No.
+hesper.neutral: What if it's about me? The box. Odo looked at me, before he died. He said it wasn't my fault. Why would he say that?
+bren.neutral: Because it isn't. Whatever it is.
+hesper.sad: You don't know what it is.
+bren.neutral: Doesn't matter.
+hesper.angry: It does matter! What if I'm... what if I'm something terrible, Bren? What if that's why Morrow chose me, why the ink won't take... || The fear she has been holding for three days, all at once.
+bren.neutral: Hess.
+bren.neutral: Whatever they've written about you in that box, you're still the girl who put frogs in my bed and corrected my spelling when I carved my name in the chapel door.
+hesper.smirk: You spelled Holloway with one "l".
+bren.smirk: It's a fair spelling.
+hesper.sad: And if it changes everything?
+bren.neutral: Then it changes everything. You'll still be you. I'll know. I'm the witness, remember?
+hesper.neutral: ...Whatever they write about us.
+bren.neutral: We keep each other's truth.
+
+== c1.s20 | Saint Ebbe's | loc=hollin_tor | map=map_hollin_tor | music=morrow_theme
+@ morrow 6 0 s; bren 6 3 n; hesper 5 3 n; aldous 7 3 n; tamsin 9 3 n; eira 6 4 n; jory 5 4 n
+[fade in]
+NARR: Hollin Tor. Dawn.
+morrow.neutral: Sister Hesper. You came. I knew you would. You were always punctual.
+hesper.determined: Brother Morrow.
+morrow.neutral: You look tired, child. They have dragged you through the fens and filled your head with fen-talk.
+hesper.angry: You killed Odo Brask. And Wat. And Merrit.
+morrow.neutral: I balanced an account. A man broke his oath, and the debt came due. It is the oldest law in the world.
+bren.angry: You struck it. You took a pen and you killed them.
+morrow.neutral: Ah. The unrecorded man has learned a word. "Struck."
+morrow.neutral: Do you know, Bren-of-nowhere, you are the only person on this hill I cannot touch? There is nothing of you in any book. I find it oddly restful.
+bren.neutral: Come down here and touch me, then.
+morrow.neutral: No. I think not.
+morrow.neutral: Child. Come up the hill. Alone. Read what is in the box, and then decide whether you still wish to stand with these people.
+hesper.determined: I'll read it. After.
+morrow.neutral: After. Very well. You were always stubborn about the order of things. || A real, rueful fondness.
+morrow.determined: Brothers. The novice is not to be harmed. The others...
+morrow.neutral: ...are not in the book.
+[music battle_boss]
+
+== c1.s75 | (B7) Two Roads Up | loc=hollin_tor
+aldous.neutral: A fine morning for it. The light comes over the tor beautifully. I came here once, as a boy.
+eira.neutral: The ruin is older than the Ledger. Look at the arch at the top. It is a crossroads shrine.
+bren.neutral: Odo's crossroads...
+tamsin.neutral: Sightseeing later. Climbing now. West path's longer but gentle. East side's a scramble, if your legs are good.
+
+== c1.s76 | (B7) The Ink | loc=hollin_tor
+morrow.neutral: Sister. Your vows would not take. Your name ran off the page like water. Did you never wonder why?
+hesper.surprised: How do you know about that? I only ever told...
+morrow.neutral: I wrote it in again myself, child. Do you not remember? I have been writing you for twelve years.
+hesper.hurt: ...
+bren.angry!: Don't listen to him, Hess!
+
+== c1.s77 | (B7) The Crossroads | loc=hollin_tor
+[sfx lantern_flare]
+NARR: As Bren passed beneath the crossroads arch, the lantern burned suddenly white, and for a breath he heard a big, wheezing laugh he knew.
+bren.surprised~: ...Odo?
+bren.determined: Right. Lanterns stand.
+
+== c1.s78 | (B7) Everything | loc=hollin_tor
+morrow.angry: You do not know what you are fighting for! None of you! You never did! || The only time in the game he comes close to raising his voice.
+hesper.determined!: Then tell me!
+morrow.neutral: I am trying to, child. I am trying to give you everything.
+
+== c1.s79 | (B7) Not This Time | loc=hollin_tor
+aldous.determined!: To her! Shield the lady! || He says "the lady". He hasn't noticed he said it.
+aldous.determined: Not again. Not this time.
+
+== c1.s21 | What Is Written | loc=hollin_tor | map=map_hollin_tor | music=revelation
+@ morrow 6 0 s; hesper 6 1 n; bren 5 2 n; aldous 7 2 n; tamsin 4 2 n; eira 8 2 n; jory 9 1 w
+morrow.hurt: ...Well fought. You always were my best student. || On his knees by the altar. Strangely proud.
+hesper.determined: The box, Brother.
+morrow.hurt: On the altar. Open it. You have earned that much. You have earned all of it.
+[sfx box]
+hesper.neutral: It's an intake book. From Millbrook. Mother Agathe's hand. I'd know it anywhere; she makes her g's like fish-hooks.
+hesper.neutral: "Twelfth night of Inkfast, six hundred and twenty-two. Received this night, at the hand of Brother Ignace Morrow, Auditor..." || Reading aloud. Steady. Scholarly. For now.
+hesper.neutral: "...a girl of ten years. Fevered. No name given. Gown of royal weave, much torn. A burn upon the left wrist."
+[emote hesper !]
+hesper.surprised~: "Says her name is Aurelie. Says her nurse called her Lark." || She has looked at her own wrist. The reading slows. Her accent starts to slip.
+bren.surprised~: Lark...
+hesper.neutral: There's another page. Folded inside. It's a royal Naming. It has the Crown's seal on it, and the Archive's, and...
+hesper.surprised: There's a line through it. Black ink. Struck.
+hesper.sad: "Aurelie Isolde Valcourt. Princess of Aldmere. Daughter of Edric, King, and of Isolde, Queen. Named in this book on the..."
+hesper.hurt: No. No. That's the lost princess. That's the heir. Everybody knows that story; she died in the fever, with her father...
+morrow.hurt: She did not die, child. She came down a muddy road in the rain with Hollows at her heels, and I found her in a ditch.
+morrow.hurt: His Grace the Archscribe asked me to keep her safe. So I took her name. I struck it with my own pen. I made her nobody.
+morrow.hurt: I made you nobody, child, so that one day you could be everything. || He believes this is a gift. Play it tender.
+hesper.angry!: You took me! You took my name and you put me in a foundling house and you let me think nobody ever wanted me! || FULL Lowmarch accent now. All the polish gone.
+morrow.hurt: Somebody wanted you very much. That was the danger.
+hesper.hurt: Twelve years. Twelve years I've been grateful to you. I prayed for you. Every night. "Witness keep Brother Morrow, who took me in."
+morrow.sad: I know. I heard you, once, through the chapel door. It was the only prayer of yours I could never bear.
+[anim aldous emote]
+aldous.sad: Your Highness. || He has gone down on one knee. His voice breaks on the title.
+hesper.surprised: Ser Aldous, don't. Get up. Please, get up.
+aldous.sad: I was a knight of your father's guard. I swore to him that I would keep you safe. That night I went out into the rain to find you, and I found only Maud.
+aldous.sad: I searched a year. Then I gave up, and threw my sword into the Aure. My companion was born that night.
+aldous.sad: Twelve years he has followed me, waiting for me to keep a promise to a little girl I had given up for dead.
+aldous.sad: I knew your face at Saint Odile's. I was too much a coward to say it.
+bren.neutral: Hess.
+hesper.sad: Don't. Don't call me... which name do I even... || Lost.
+bren.neutral: Hess. Look at me. Whatever they wrote.
+hesper.sad: ...We keep each other's...
+[sfx horn]
+tamsin.surprised: Lantern. Grey cloaks. On every side of the hill.
+
+== c1.s22 | The Regent | loc=hollin_tor | map=map_hollin_tor | music=regent_theme
+@ morrow 6 0 s; hesper 6 1 s; bren 5 2 s; aldous 7 2 s; tamsin 4 2 s; eira 8 2 s; jory 9 1 s
+[place ilka 5 4 n]
+[place ashguard_sergeant_npc 4 4 n]
+[walk ilka 5 3]
+ilka.neutral: Ashguard! Nobody moves. Nobody draws.
+ilka.neutral: By order of the Lord Regent. Who is present.
+[sfx hooves]
+[place lucan 6 6 n]
+[walk lucan 6 3]
+lucan.neutral: Thank you, Captain. I can announce myself. I'm dying, not mute. || Dry, hoarse, cultured. He coughs grey into a black handkerchief.
+[sfx cough]
+lucan.neutral: Ignace Morrow. On your knees. It suits you.
+morrow.hurt: Lord Regent.
+lucan.neutral: And this...
+lucan.surprised: ...
+lucan.sad~: ...Lark. || Everything he has been for twelve years cracks open on one word.
+hesper.surprised: ...
+morrow.hurt: Lord Regent. The Ledger has kept her safe these twelve years. The Ledger claims...
+[anim lucan slash]
+[sfx sword]
+[flash red]
+NARR: The Regent's blade moved once.
+lucan.neutral: The Ledger has had her twelve years. It may write that down.
+tamsin.surprised: Witness drown me.
+morrow.hurt~: ...Child... I kept you... || Dying. To Hesper only.
+morrow.hurt~: ...balanced... || His last word is an accountant's. Let it trail off.
+hesper.hurt: Brother...
+lucan.neutral: Forgive me. That was untidy. I have wanted to do it for some time.
+[anim lucan emote]
+lucan.sad: Do you know me, child? || He kneels in the mud before her. Slowly; it hurts him.
+hesper.neutral: You're the Regent. Lucan Valcourt. Your face is on the coins. You burn villages.
+lucan.smirk: All true. The coins flatter me.
+lucan.sad: You won't remember. You were ten. You used to make me say goodnight twice.
+lucan.sad: The first one was for the whole palace, you said. The second one was yours.
+hesper.surprised: ...
+hesper.sad~: "Goodnight, Lark. And goodnight again. That one's yours." || She doesn't decide to say it. It simply comes out of her, in a child's rhythm.
+lucan.sad: ... || He bows his head. A little ash falls from his sleeve.
+lucan.sad: There you are.
+ilka.neutral: My lord. The sellswords.
+lucan.neutral: Yes. The famous sellswords. Captain Stroud tells me you broke a Ledger contract and fought my Ashguard at Millbrook.
+lucan.smirk: And then dragged the heir to the throne through every bog in the Lowmarch.
+bren.neutral: That's about the size of it.
+lucan.neutral: Your name?
+bren.neutral: Bren Holloway.
+lucan.smirk: Holloway. A foundling name. Not in the book, then. How refreshing. No one will miss you.
+lucan.neutral: Captain, they are oathbreakers by Ledger decree and abductors by mine. Hang them from that very fine arch.
+ilka.neutral: My lord.
+tamsin.angry: Come and try it, Stroud. I've been waiting two years.
+hesper.determined: No.
+lucan.neutral: No?
+hesper.determined: They saved my life. Every one of them. More than once. They're the only people who have never lied to me.
+lucan.neutral: Child, you have known them a fortnight.
+hesper.determined: I've known him since I was ten years old. He's the first thing I remember. I've known him my whole life. The life I remember, anyway.
+hesper.determined: Let them go. All of them. Free and unhunted. And give Tenpenny a pardon.
+lucan.neutral: And in return?
+hesper.neutral: I'll come with you. Willingly. To Corvel, to Aurenne, wherever you like. I'll be your Lark, or your princess, or whatever it is you need me to be.
+bren.surprised: Hess, no...
+lucan.smirk: You always did bargain. You bargained for honey cakes when you were four.
+lucan.neutral: Swear it, then.
+hesper.neutral: There's no Witness here, my lord. No book.
+lucan.neutral: There's a witness. Your sellsword carries the lamp, I'm told. Captain Stroud's scouts are very thorough.
+hesper.sad: ...
+hesper.sad: Bren.
+bren.sad: Don't ask me that.
+hesper.sad: Witness it. Please. If it's you, I'll know it's true.
+bren.sad: ...
+hesper.determined: Lucan Valcourt. I swear I'll go with you, freely, and not run, so long as you keep these people free and unhunted. If I break it, may I lose them.
+lucan.neutral: And I swear they will go free. On my Naming. For whatever that is worth these days.
+[sfx cough]
+bren.sad: ...I witness you. || The hardest line in the chapter. Barely voiced. He does it because she asked.
+hesper.sad: And I you.
+[sfx lantern_flare]
+[walk hesper 6 2]
+hesper.neutral~: Whatever they write about us. || Passing him. Low. For him alone.
+bren.sad~: We keep each other's truth.
+[exit hesper]
+[exit lucan]
+aldous.determined: Your Highness! Wait! I swore to your father...
+ilka.neutral: Not you, oathbreaker. || Her blade at his chest. No anger in it.
+aldous.sad: Captain. I was of her father's guard.
+ilka.neutral: I know who you were, Ser Aldous. I know what you did. The Regent has no use for men who throw their swords in rivers.
+ilka.neutral: Stay with your sellswords.
+tamsin.angry: Stroud!
+ilka.neutral: Reed. Sallowmere.
+tamsin.surprised: You know my name?
+ilka.neutral: I know every name. Another day. || She means it as a promise.
+[exit ilka]
+[exit ashguard_sergeant_npc]
+
+== c1.s23 | Witness Me | loc=hollin_tor | map=map_hollin_tor | music=oathbound_theme
+@ bren 6 1 s; tamsin 5 3 n; eira 7 3 n; jory 9 1 w; aldous 6 4 n
+NARR: Noon.
+bren.sad^: Fourteen days. Eight years without her, and I got fourteen days. || Inner voice. Hollowed out.
+[walk tamsin 5 2]
+[walk eira 7 2]
+[walk aldous 6 2]
+jory.neutral: The Ashguard are gone. Didn't even take the box. Left it on the altar like an old boot.
+eira.neutral: They took the pages. The box is empty. Except for this. It was caught in the lining.
+eira.neutral: A single leaf, black-edged. Written in the Archive's cipher. All but one line at the bottom, in a very neat hand.
+eira.neutral: "By order of His Grace. Struck."
+bren.neutral: Can you read the rest?
+eira.neutral: Not yet. Give me time. I am very good at time.
+aldous.neutral: She went of her own will, Bren. To save us. You must hold on to that.
+bren.neutral: I know why she went.
+tamsin.neutral: So. What now, Lantern?
+bren.neutral: ...
+bren.neutral: Odo told me every promise needs a witness.
+bren.neutral: Somebody's been writing this whole kingdom. Who's Named and who's nobody. Who owes. Who pays for it. Who gets struck.
+bren.determined: Now we find out who wrote all this. || Quiet. Absolute.
+bren.determined: And we make them read it out loud.
+
+== c1.s24 | The Black Folio | loc=aurenne_archive | music=clement_theme
+[fade in]
+NARR: Aurenne. The Archive of Saint Verity. Far below the reading rooms.
+quire.neutral~: Your Grace? Forgive me. A bird from the Lowmarch.
+clement.happy: Come in, my dear, come in. Mind the cat. She's asleep on the Treaty of Seven Rivers and I haven't the heart to move her. || The voice from the cold open. Warm, light, grandfatherly. Let the player recognise it.
+quire.neutral: High Auditor Morrow is dead, Your Grace. On Hollin Tor. By the Regent's own hand.
+clement.sad: Ah. Poor Ignace. He did so love to be thorough.
+quire.neutral: And the girl... the Regent has her. He's taking her to Corvel.
+clement.neutral: Has he.
+clement.neutral: Then the Regent has saved us a long walk.
+clement.happy: He always was a dutiful man, Lucan. He will carry her all the way home for us, coughing every step.
+quire.neutral: And the sellsword, Your Grace? The one with the lamp. The unrecorded one.
+[sfx pages]
+clement.neutral: Yes. I have been reading about him. Or rather, I have been reading the space where he ought to be.
+clement.neutral: A man with no name cannot be struck, Sister. Did you know that? There is nothing to draw the line through.
+quire.neutral~: Then what shall we do with him?
+[sfx quill]
+clement.smirk: ...Find him one. || A smile you can hear. End of chapter.
+[fade out]
+NARR: End of Chapter One. The Split Penny.
+
+#############################################################################
+# SKIRMISH INTROS (one-time)
+#############################################################################
+== c1.s85 | (Skirmish) Sallowmere | loc=sallowmere
+NARR: Sallowmere. The black stilts still stand in the water where the houses were.
+bren.neutral: Hollows don't need a reason to come back here. Only a road. Let's take it away from them.
+
+== c1.s86 | (Skirmish) Gibbet Hill | loc=gibbet_hill
+NARR: Gibbet Hill. The rope on the gallows creaks, though there's no wind.
+highwayman.smirk: Purses on the ground, travellers, and nobody needs to hang today.
+bren.neutral: Funny place to say that.
+
+== c1.s87 | (Skirmish) Kingsbarrow | loc=kingsbarrow
+NARR: Kingsbarrow. Someone has dug into the old mound. The earth is fresh, and something inside is moving.
+bren.neutral: Odo always said never rob the dead. They keep better records than the Ledger.

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprite Lab — Oathbound Tactics</title>
+    <style>
+      :root { color-scheme: dark; --bg: #16181d; --panel: #20232b; --line: #343846; --text: #e6e6ea; --dim: #9aa0ae; --accent: #e3b341; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--text); font: 13px/1.4 system-ui, sans-serif; }
+      header { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--line); }
+      header h1 { font-size: 15px; margin: 0 12px 0 0; }
+      header label { display: inline-flex; gap: 6px; align-items: center; color: var(--dim); }
+      select, button { background: #2b2f3a; color: var(--text); border: 1px solid var(--line); border-radius: 4px; padding: 3px 8px; font: inherit; }
+      button.on { border-color: var(--accent); color: var(--accent); }
+      #stats { margin-left: auto; color: var(--dim); font-variant-numeric: tabular-nums; }
+      main { padding: 16px; display: flex; flex-wrap: wrap; gap: 14px; }
+      .card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px; cursor: pointer; }
+      .card.sel { border-color: var(--accent); }
+      .card h2 { font-size: 13px; margin: 0 0 4px; display: flex; justify-content: space-between; gap: 8px; }
+      .card h2 span { color: var(--dim); font-weight: normal; }
+      .card canvas { display: block; image-rendering: pixelated; }
+      .card .meta { color: var(--dim); font-size: 11px; max-width: 100%; }
+      .card .warn { color: #f0883e; font-size: 11px; }
+      #inspect { padding: 0 16px 24px; }
+      #inspect h3 { font-size: 13px; margin: 8px 0; }
+      #inspect canvas { image-rendering: pixelated; background: repeating-conic-gradient(#2a2d36 0 25%, #23262e 0 50%) 0 0 / 16px 16px; border: 1px solid var(--line); }
+      #inspect .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+      .bg-check .card canvas { background: repeating-conic-gradient(#2a2d36 0 25%, #23262e 0 50%) 0 0 / 16px 16px; }
+      .bg-grass .card canvas { background: #4b6b3a; }
+    </style>
+  </head>
+  <body class="bg-check">
+    <header>
+      <h1>Sprite Lab</h1>
+      <label>Scale <select id="scale"><option>1</option><option selected>2</option><option>3</option></select></label>
+      <label>Animation <select id="anim"></select></label>
+      <label>Background <select id="bg"><option value="check">checker</option><option value="grass">grass</option><option value="plain">plain</option></select></label>
+      <button id="anchors">Feet anchors</button>
+      <button id="pause">Pause</button>
+      <span id="stats"></span>
+    </header>
+    <main id="grid"></main>
+    <section id="inspect"></section>
+    <script type="module" src="/src/labs/sprite-lab.ts"></script>
+  </body>
+</html>

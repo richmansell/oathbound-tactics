@@ -1,0 +1,425 @@
+#############################################################################
+# THE TURN
+#############################################################################
+== c1.s12 | What's in the Box | loc=sallow_ford | map=map_sallow_ford | music=night_tension
+@ odo 4 12 s; bren 6 12 w; hesper 3 13 e; tamsin 4 13 n; wat 3 12 s; merrit 3 14 n
+[fade in]
+NARR: The south bank of the Sallow Ford. The small hours.
+[sfx fire]
+odo.neutral~: Forty crowns for old records. Old records my backside. || Muttering to himself. Everyone else asleep.
+[sfx lock]
+odo.neutral~: Sorry, Witness. Bren'll want his knife back.
+[sfx paper]
+odo.surprised~: ...Ink and ashes.
+[face odo w]
+odo.sad~: Oh, girl. Oh, you poor girl. || Looking across the fire at Hesper, asleep. Something breaks in him.
+[emote odo !]
+odo.neutral: Bren. Bren, lad, wake up. Quiet, now.
+bren.neutral: Mm? Whose watch is... is that the box? Captain, you opened the box?
+odo.neutral: Hush. Listen to me. We need to get her away from...
+[place morrow 6 13 n]
+morrow.neutral: From whom, Captain? || Directly behind them. No footsteps. Soft as ever.
+[emote bren !]
+odo.neutral: Auditor. Couldn't sleep. Thought I'd check the seals. Damp gets in.
+morrow.neutral: You have read what is written.
+morrow.neutral: That is a breach of contract, Captain. The fourth clause: the reliquary shall remain sealed. You swore it. On your Naming.
+odo.determined: Aye. And I'll swear something else. Whatever's in this box, she has a right to know it.
+morrow.neutral: She will know it. When it is time. In the proper place, before the proper witnesses.
+morrow.neutral: You are not a proper witness, Captain. You are a sellsword who cannot keep his hands off a lock.
+hesper.surprised: Brother Morrow? Captain? What's happening? || Waking. Confused.
+morrow.neutral: Nothing that need trouble you, Sister. Go back to sleep.
+[sfx paper]
+bren.neutral: What's that?
+morrow.neutral: A warrant, sealed by His Grace the Archscribe. Do you know what a warrant allows an Auditor to do, Bren-of-nowhere?
+morrow.neutral: It allows me to balance the books.
+morrow.neutral: The contract between the Ledger and Brask's Lanterns, sworn at Tallow Cross. Witnessed by the novice Hesper Vane.
+hesper.surprised: Brother, what are you doing?
+morrow.neutral~: Struck. || Exactly as Clement said it in the cold open. The same small word.
+[sfx pen_strike]
+[flash white]
+[shake]
+[sfx hollow_shriek]
+NARR: Every flame on the riverbank turned blue, then grey. Something tore its way out of the air above the tents.
+wat.hurt!: Captain! They're in the tents! They're coming out of nothing! || Off. Terror from a man who is never afraid.
+merrit.hurt!: Wat! WAT! || Off. Then silence.
+hesper.surprised!: Hollows! Out of nothing! Brother Morrow, stop this! You're killing them!
+morrow.neutral: I am not killing anyone, child. I have merely removed a promise. What comes after is the debt's own business.
+odo.determined!: Bren! Take the girl and run! Across the ford, now! She's...
+[sfx impact]
+[anim odo hurt]
+odo.hurt: Go! GO! I'll hold the causeway!
+bren.determined: Hess! With me!
+hesper.hurt: I can't leave them! Wat... Merrit...
+tamsin.determined: They're gone, candle! Move your feet or go with them!
+[music battle_escape]
+
+== c1.s56 | (B4) Hold the Ford | loc=sallow_ford
+odo.determined: The causeway zig-zags, mind your feet! Get across! I'll hold this end!
+bren.angry: Captain, come with us!
+odo.determined: Somebody has to stand in the door, lad. Go!
+morrow.neutral: Let them run, Brothers. Bring me the girl, unharmed. The rest are of no account. || Giving orders like reading a list.
+
+== c1.s57 | (B4) Across the Water | loc=sallow_ford
+hesper.angry!: Brother Morrow! You taught me the Canon! "Keep faith with the faithful!" They kept faith with you! || Shouting across the river. Her voice cracking.
+morrow.neutral: They kept a contract, Sister. Faith is a different column.
+hesper.hurt: I trusted you.
+morrow.neutral: And you will again, when you understand. Come back across the water, child.
+
+== c1.s58 | (B4) Don't Look Back | loc=sallow_ford
+odo.hurt!: Don't look back, lad! Don't you dare look back!
+hesper.surprised~: Don't look back... || Half a memory surfaces. Rain. A woman's voice. Gone again.
+
+== c1.s59 | (B4) Lanterns Stand | loc=sallow_ford
+odo.hurt!: Come on, then! Come and get the old man! Lanterns stand! || Wounded, roaring, enjoying it a little.
+
+== c1.s60 | (B4) In a Moment | loc=sallow_ford
+bren.determined!: Captain! We're across! Come on!
+odo.neutral: In a moment, lad. In a moment. || Calm. He isn't coming yet and they both know it.
+
+== c1.s62 | (B4) Walk and Pray | loc=sallow_ford
+tamsin.surprised: Candle's hurt!
+hesper.determined: Keep moving! I can walk and pray at the same time!
+
+== c1.s13 | The Lantern Passes | loc=sallow_ford_north | music=odo_theme
+[fade in]
+NARR: The north bank. The hour before dawn.
+tamsin.neutral: They're not following. The Hollows have stopped at the water.
+bren.neutral: Where's Odo? Where's...
+[sfx water]
+odo.hurt: Here, lad. Here. Don't shout. I've a headache. || Staggering out of the river. Making a joke of it.
+bren.surprised: Captain! Witness, your side...
+odo.hurt: Aye. Hollow got a bite in. Cold as winter. Going greyer as we speak.
+hesper.determined: Lie still, Captain. I can heal it. I can...
+[sfx heal]
+hesper.hurt: It won't close. Why won't it close? It's only a wound, it should close...
+odo.neutral: Struck debt, girl. Doesn't heal. I've seen it before.
+odo.happy: Sit me up against that fence. A man should die sitting up. Lying down's for sleeping.
+bren.angry: You're not dying. You're not allowed. You owe Wat three weeks' wages... || Furious, because the alternative is falling apart.
+odo.sad: Wat's past wages now, lad. And Merrit. Good lass. Mouth like a drain.
+odo.neutral: Bren. Take the lamp.
+bren.sad: Odo...
+odo.neutral: Take it. Hollows won't come near it while there's someone close by keeping faith. Turns out that's you.
+odo.neutral: Every promise needs a witness, lad. || A breath between the lines. This is the most important thing he has ever said.
+odo.neutral: Be one.
+bren.sad: I don't know how.
+odo.happy: Nobody does. You just stand there and listen, and you don't look away. You're good at not looking away. Always have been.
+odo.neutral: Girl. Sister. Hesper.
+hesper.sad: I'm here.
+odo.neutral: Whatever's in that box, it's not your fault. You hear me? None of it. You were only a little thing.
+hesper.surprised: What was in it? Captain, what did you read?
+odo.neutral: It said... || He tries. The words won't come.
+odo.happy: Ha. Can't. Can't get it out. Struck tongue, maybe. Or I'm a coward at the last.
+odo.happy: Ask the Auditor. He'll tell you. Men like that always want someone to read their work.
+odo.neutral: Lanterns stand, lad. || Fading. Smiling.
+bren.sad: ...Lanterns stand.
+[sfx lantern]
+[music silence]
+NARR: Odo Brask died sitting up, as he had wanted. The lantern did not go out.
+[wait 1200]
+hesper.sad: The Ledger doesn't do this. Brother Morrow wouldn't. He couldn't. || Denial. Clinging to the last solid thing.
+bren.neutral: He just did.
+hesper.angry: There has to be a reason. There has to be something written that explains...
+bren.angry!: Then go and read it, Hess! Go back across the river and ask him for his reasons! || The first time he has ever raised his voice to her. He regrets it instantly.
+hesper.hurt: ...
+bren.sad: I'm sorry. I'm sorry. I didn't mean...
+hesper.sad: No. You're right. I don't know what I'm saying.
+tamsin.neutral: Lantern.
+bren.neutral: What.
+tamsin.neutral: He was a loud old man and he talked too much and his jokes were terrible.
+tamsin.sad: I liked him. || The kindest thing she says all chapter. Barely audible.
+bren.sad: ...Yes. Me too.
+
+#############################################################################
+# ACT TWO — THE GREYFEN
+#############################################################################
+== c1.s14 | Fugitives | loc=greyfen_deep | music=greyfen
+[fade in]
+NARR: The Greyfen. Morning.
+tamsin.neutral: Stay in my footsteps. Exactly in them. The fen'll swallow a horse if it steps wrong.
+hesper.neutral: Where are we going?
+tamsin.neutral: Away from the Auditor. That's the whole plan so far.
+bren.neutral: He'll post notices. Oathbreakers. Abductors of a novice. We'll be hanged in every market from here to Saltmouth.
+hesper.neutral: I could go back. Explain. Tell the Chancery what he did...
+bren.neutral: And who would they believe? You, or a High Auditor with the Archscribe's warrant in his pocket?
+hesper.sad: ...Him. They'd believe him.
+[sfx punt]
+jory.happy: Ahoy, the fen! Well, if it isn't my favourite unreasonable people!
+tamsin.angry: Witness drown me. You.
+jory.happy: Me! Alive and unhanged, thanks to a certain poacher's knife. I owe you one, friends. Two, if we count the rope.
+bren.neutral: How did you find us?
+jory.neutral: Find you? Half the fen heard that racket at the ford. Hollows screaming, a lantern burning white as a star...
+bren.neutral: And the Auditors? Last we saw you, you were tied to a Ledger cart.
+jory.neutral: Oh, I slipped them. Easy. Very easy. Hardly worth mentioning. || Too quick. He looks away and starts counting on his fingers.
+jory.happy: Point is, you need a hole to hide in, and I know one the Ledger never visits. Tenpenny. My home.
+tamsin.neutral: Tenpenny's Struck. Hollows every winter.
+jory.smirk: And Auditors never. They don't like getting their hems wet. Two days by punt, if we cut past Saint Odile's.
+hesper.neutral: Saint Odile's? The drowned churchyard? There are stories about that place.
+jory.neutral: All lies. Mostly. Some.
+[sfx bell]
+jory.surprised: ...That's not right.
+bren.neutral: What isn't?
+jory.neutral: That's Saint Odile's bell. It's been under the water eighty years.
+tamsin.neutral: And someone's fighting. Steel on... something.
+bren.determined: Right. Let's go and see who's fool enough to pick a fight in a drowned churchyard.
+[music battle_undead]
+
+== c1.s63 | (B5) Mind the Dead | loc=saint_odile
+aldous.neutral: Ah. Good evening. Do mind the dead; they are not at their best. || Perfectly polite, mid-swordfight, slightly out of breath.
+bren.surprised: Who in the Witness's name are you?
+aldous.neutral: A knight, after a fashion. Aldous Pell. I would bow, but I am rather occupied.
+tamsin.neutral: He's mad.
+aldous.smirk: Very likely. Shall we?
+
+== c1.s64 | (B5) The Grey Dog | loc=saint_odile
+tamsin.surprised: Lantern. On the far hummock. There's a dog. A grey dog. You can see the reeds through it.
+aldous.neutral: Pay him no mind. He is with me.
+tamsin.surprised: Is that... is that yours? Your Hollow?
+aldous.neutral: In a manner of speaking. We have an understanding. He waits, and I do not stop walking.
+
+== c1.s65 | (B5) The Bell Tolls | loc=saint_odile
+[sfx bell]
+NARR: The drowned bell tolled again. Under the water, the graves began to open.
+hesper.surprised: The graves! They're opening!
+aldous.neutral: Old debts, Sister. Very old. They have been waiting a long while for somebody to pay them.
+
+== c1.s66 | (B5) Careless | loc=saint_odile
+aldous.hurt: Ah. That was careless of me.
+bren.determined: Get behind the lantern!
+aldous.smirk: A lantern. How very old-fashioned. I approve.
+
+== c1.s15 | The Knight and His Companion | loc=saint_odile | map=map_saint_odile | music=aldous_theme
+@ aldous 6 5 w; bren 5 4 e; hesper 5 6 e; tamsin 4 4 e; jory 4 5 e
+aldous.neutral: Thank you. Truly. I have held that chapel since noon, and my arms had begun to file complaints.
+bren.neutral: Why were you holding it at all?
+aldous.neutral: There was a family of eel-fishers sheltering inside. I sent them off across the reeds when the bell began. It seemed the knightly thing.
+aldous.neutral: Ser Aldous Pell, at your service. Once of somewhere grander. Now of wherever I happen to be standing.
+jory.smirk: A real ser. Out here. With the eels.
+aldous.smirk: We must all live somewhere, friend.
+tamsin.neutral: Your dog's watching us.
+[emote aldous ...]
+aldous.neutral: Yes. He does that. He is my companion.
+hesper.neutral: He's a Hollow, ser. A broken oath's debt. Yours.
+aldous.neutral: He is. I broke a promise, Sister, many years ago, and he has followed me ever since. A hundred paces behind. Never closer. Not yet.
+aldous.neutral: One day he will be closer. I find I do not mind as much as I used to. || Gentle. Not self-pitying. A statement of weather.
+tamsin.neutral: What oath?
+aldous.neutral: One I was not equal to.
+tamsin.neutral: That's not an answer.
+aldous.smirk: No. It is a very old knight's way of saying "mind your business," young lady. But kindly meant.
+[face aldous s]
+aldous.surprised: Forgive me. Have we met, my lady? || Looking at Hesper. Suddenly unguarded.
+hesper.neutral: I'm a novice of the Ledger, ser. Not a lady. I meet a great many people.
+aldous.neutral: Yes. Of course. Only your face put me in mind of someone. Someone I failed. It is of no matter.
+bren.neutral: We're bound for Tenpenny, and the Ledger wants us hanged. You'd do better going the other way.
+aldous.neutral: Oh, I am going that way.
+bren.neutral: You don't know where we're going.
+aldous.smirk: My dear fellow. I am always going that way.
+
+== c1.s16 | Tenpenny | loc=tenpenny | map=map_tenpenny | music=tenpenny
+@ bren 6 6 s; hesper 7 6 s; tamsin 5 6 e; aldous 8 6 w; jory 6 5 s; pim 6 7 n; eira 5 5 e
+[fade in]
+NARR: Tenpenny. The deep Greyfen.
+jory.happy: Welcome to Tenpenny! Population forty-one. Hollow-nights survived, two hundred and twelve. I've got every one of them right here. || Tapping the tally marks on his forearm. Proud and terrible.
+pim.neutral: Da. Who are they?
+jory.happy: Pim! My sweet eel. These are friends. Unreasonable ones, but friends.
+pim.neutral: That one's got a lantern.
+bren.neutral: I have.
+pim.neutral: Is it a Ledger lantern?
+bren.neutral: No.
+pim.happy: Good. Can I hold it?
+bren.smirk: No.
+pim.neutral: Can I hold your hand, then?
+bren.surprised: ...I suppose.
+tamsin.smirk: Look at that. Lantern's got a sweetheart.
+eira.neutral: Jory Tenpenny. You are alive. I had written you down as hanged. || Precise, unhurried. Not unkind. No contractions, ever.
+jory.happy: Eira! Cross me out, love. Unhanged, unrepentant, unrecorded.
+eira.neutral: You were never recorded. That is rather the point of my research.
+eira.neutral: I am Eira Ashmantle. I am from the north. I study Hollows.
+tamsin.neutral: Why?
+eira.neutral: Because you have a great many of them, and we have very few, and nobody in this country has ever asked why.
+hesper.neutral: The Ledger has asked. The Canon is quite clear on the...
+eira.neutral: The Canon is quite clear on many things. Most of them involve fees.
+hesper.angry: I beg your pardon?
+eira.neutral: I am not being rude. I am being accurate. In Aldmere these are apparently the same thing.
+jory.smirk: She's like this with everyone. You get used to it. Or you leave.
+eira.surprised: That lamp. Where did you get it?
+bren.neutral: It was my captain's. He died two nights ago.
+eira.neutral: I am sorry. And I am very interested. That is a Lanternbearer's lamp. I believed the last of them died before I was born.
+bren.neutral: He said an old woman gave it to him. On Hollin Tor.
+eira.neutral: Then he was one, whether he used the word or not. May I?
+[sfx lantern]
+eira.neutral: It burns clean. Witnesslight. Someone near it is keeping a promise.
+pim.neutral: What's that on your string? It's a broken penny.
+bren.neutral: It's half a penny.
+pim.neutral: Where's the other half?
+hesper.neutral: ...Here. || Drawing the chain out from her collar. Self-conscious.
+eira.neutral: Show me.
+eira.surprised: ... || She touches the coin and goes very still.
+eira.neutral: You are bound. Both of you. This is an oath-token, and the oath on it is alive.
+eira.neutral: Who witnessed it?
+bren.neutral: Nobody. We were children. It was a game on a roof.
+eira.neutral: Then you witnessed each other. || Simple. A door opening.
+eira.neutral: That is enough. That has always been enough.
+hesper.neutral: That isn't possible. "A word unwitnessed is wind." Only a Ledger Witness can bind an oath. It's the very first thing they teach us.
+eira.neutral: Yes. It would be, would it not?
+eira.neutral: In the north we have no Ledger. We swear on breath and iron, before whoever is in the room. And our promises hold, Sister. Exactly as well as yours.
+eira.neutral: In the north we say: a promise is not written. It is remembered.
+hesper.sad: But then why would the Ledger...
+eira.neutral: Charge two marks to name a baby? Forbid you to promise without paying a penny a line? I have been in your country a year. I can think of reasons.
+tamsin.neutral: So when Col was dying. In the smoke. And I told him... || Stops dead.
+bren.neutral: Tamsin?
+tamsin.neutral: Nothing. It's nothing. Forget it.
+aldous.neutral: My companion would tell you the same, Sister, if he could talk. Debts do not ask whether the paperwork was in order.
+bren.neutral: Odo used to light this lamp for people who couldn't pay. He'd listen while they promised, and then he'd say "I witness you." That's all.
+bren.neutral: The Ledger struck our contract, and people died on a riverbank. Wat. Merrit. Odo. People who'd kept every word they ever gave.
+bren.determined: I'm done asking the Ledger what my promises are worth. || Quiet. The hero steps forward, without meaning to.
+eira.neutral: If you mean to do what I think you mean to do, name the forfeit. The old Lanternbearers always did.
+eira.neutral: A promise that names its own price cannot grow a Hollow larger than that price.
+bren.neutral: Right.
+[sfx lantern]
+bren.determined: Then here's mine. No ink. No fee. I'll stand with you, every one of you, and keep your truth whatever they write about you.
+bren.determined: And if I break it, may I lose my nerve when it counts most.
+eira.neutral: That will do. Who witnesses?
+tamsin.neutral: ...I witness you, Lantern. || Gruff. Embarrassed. Meaning every word.
+bren.neutral: And I you.
+tamsin.determined: My turn. I'll stand with you lot. Keep your truth. Shoot whoever needs shooting. If I break it, may my bowstring snap.
+bren.neutral: I witness you.
+tamsin.neutral: And I you. Ugh. That felt like church.
+jory.neutral: Me too, then. If I break it... may I never be believed again. || He hesitates on "believed". He is lying to them right now.
+bren.neutral: I witness you.
+jory.neutral: And... and I you.
+aldous.neutral: I am a known oathbreaker, Bren. You may not want my word.
+bren.neutral: I'll take it.
+aldous.neutral: Then you have it. And if I fail you, may my companion come one pace closer.
+bren.neutral: I witness you.
+aldous.sad: And I you. ...It has been a long time since anyone said that to me.
+eira.neutral: I will witness. Not swear. I am a scholar; I must observe.
+hesper.sad: Bren. I'm a novice of the Ledger. If I swear this, it's heresy. I'd be throwing away everything. Eight years. Everything I've...
+bren.neutral: I know.
+hesper.neutral: You know.
+bren.neutral: You don't have to. Whatever you do, you've still got half a penny. That one doesn't go away.
+hesper.neutral: ...We already did this once, didn't we. On a roof. Before I knew any better.
+hesper.determined: I'll stand with you. I'll keep your truth. And if I break it...
+hesper.sad: ...may I forget my own name. || Dramatic irony: she already has. Play it as a brave, solemn choice.
+bren.neutral: I witness you.
+hesper.determined: And I you.
+[flash white]
+[sfx lantern_flare]
+NARR: The lantern flared white, so bright that every door in Tenpenny threw a shadow. Out in the fen, something that had circled the village for seven winters drew back.
+pim.surprised: Da! Da, it's so bright!
+jory.surprised: Witness drown me...
+eira.neutral: Fascinating. You have just made yourselves a company. No Ledger. No ink. What will you call it?
+bren.neutral: Brask's Lanterns are dead. Odo's dead.
+tamsin.smirk: Lanterns, then. Still.
+aldous.neutral: If I may. In the old tales, those who swore to one another without lord or book were called the oathbound.
+bren.neutral: The Oathbound. || Trying the word in his mouth.
+bren.smirk: Right. Fine. That's us.
+[flag set oaths_unlocked]
+
+== c1.s17 | Night Falls on Tenpenny | loc=tenpenny | map=map_tenpenny | music=tension_low
+@ bren 6 6 n; hesper 7 6 n; tamsin 5 6 n; aldous 8 6 n; jory 6 5 n; pim 6 7 n; eira 5 5 n
+NARR: That night.
+pim.surprised: Da. Lights. Lights on the causeway.
+jory.surprised: No. No, no. They weren't supposed to... || Horror. Too loud.
+bren.neutral: Jory?
+jory.neutral: Nothing! Lights. Probably eel-fishers. Very bright eel-fishers.
+[place crane 6 0 s]
+[camera 6 1]
+crane.neutral: By warrant of the Archive. Brother Absalom Crane, Auditor. || Heavy, flat. A man who enjoys this.
+crane.neutral: The novice Hesper Vane comes with us. Unharmed, by order of the High Auditor.
+crane.smirk: The rest of you are struck. Your names, your village, your little hedge-promises. All of it.
+hesper.determined: I'm not going anywhere with you, Brother Crane.
+crane.smirk: Sister. You're not in a position to have opinions.
+eira.neutral: There are Hollows in the water behind him. He has brought them. On purpose.
+aldous.neutral: Struck debts, carried like eels to market. I have heard of such a thing. I did not believe it.
+crane.neutral: Loose the debts.
+bren.determined: Oathbound! Hold the hall. Nobody touches Tenpenny.
+jory.determined: Pim. Into the hall. Under the table. Now, eel.
+[music battle_ledger]
+
+== c1.s68 | (B6) Keep Them | loc=tenpenny
+eira.neutral: Tell me, Bren. Your oaths are sworn? Good. Keep them. I want to see what happens.
+bren.neutral: So do I.
+crane.neutral: Auditors. The novice alive. Everyone else, I don't care how.
+
+== c1.s69 | (B6) Directions | loc=tenpenny
+crane.smirk: Oh, and do thank your thatcher for the directions. Very precise. "Twenty houses on stilts. Past the drowned church. Follow the eel-weirs." || Enjoying the knife going in.
+jory.surprised: That's... he's lying, he's...
+tamsin.angry: Jory.
+jory.hurt: Later. Please. Later. Pim's in there.
+bren.neutral: Later. Fight now.
+
+== c1.s70 | (B6) More of Them | loc=tenpenny
+eira.neutral: More of them, from the south channel. He has a great many debts in that jar.
+aldous.determined: Then let us see him pay them.
+
+== c1.s71 | (B6) The Book Remembers | loc=tenpenny
+crane.angry!: The book remembers! Every one of you! It remembers!
+bren.determined: Good. Let it remember this.
+
+== c1.s72 | (B6) Noted | loc=tenpenny
+eira.hurt: I am noting... that this is painful.
+hesper.determined: Note it from behind me!
+
+== c1.s73 | (B6) Whose Debt | loc=tenpenny
+crane.hurt: No. Get back. Get back! I'm not yours, I'm not your debtor! || The Hollows he brought have turned on him.
+NARR: The Hollows Brother Crane had carried did not care whose debt they were.
+
+== c1.s74 | (B6) Not Even | loc=tenpenny
+jory.hurt: Go on, then. Maybe I've earned it.
+bren.angry: Don't you dare, Jory. You don't get to fall over and call it even.
+
+== c1.s18 | The Price of a Line | loc=tenpenny_hall | music=confession
+[fade in]
+NARR: The stilt-hall. After.
+jory.sad: You'll want to know. So I'll tell it, and then you can do as you like. || No charm left. Plain.
+jory.sad: After Miller's Cut, when I ran, I didn't get far. Crane caught me on the second night. Him and two Vergers.
+jory.sad: He didn't hit me. That's the thing. He sat me down, gave me a cup of beer, and opened a book.
+jory.sad: Pim's name was in it. Hearth-debt. Eleven marks. Interest on her mother's Hollow-burial. She's eight.
+jory.sad: He said, tell me where the sellswords go, and I'll strike it. One line. She'd be free. Clean.
+jory.angry: One line of ink, friends. That's what I sold you for.
+jory.sad: That's what I'm worth. That's what they taught me I'm worth.
+tamsin.angry: We swore in front of your daughter. Hours ago. You stood there and swore with that in your belly.
+jory.sad: I know.
+tamsin.angry: "May I never be believed again." You said it. Out loud.
+jory.sad: I know what I said, Tamsin.
+aldous.neutral: He has paid something already, I think. Look at his hands.
+eira.neutral: And they came to burn his village regardless. A Ledger promise to an unrecorded man. I could have told you what that was worth, Jory.
+jory.sad: Nothing. It was worth nothing. I know that now.
+CHOICE bren: Jory is waiting for your answer.
+- "You'll walk in front from now on." => flag:c1_jory_forgiven goto:forgive
+- "Get out of my sight." => flag:c1_jory_shamed goto:shame
+[label forgive]
+bren.neutral: You'll walk in front from now on. Every road. Every ford. If there's an ambush, you find it first.
+jory.surprised: ...That's it?
+bren.neutral: That's not "it." That's for as long as it takes.
+jory.sad: ...Aye. In front. I can do in front.
+[goto after]
+[label shame]
+bren.angry: Get out of my sight, Jory.
+jory.sad: ...Fair.
+pim.sad: Da? Are we going away?
+pim.neutral: You can't send Da away. He's in your oath. I heard. I was under the table. || Eight years old and absolutely certain.
+bren.neutral: ...
+bren.neutral: He walks at the back. Where I can see him.
+jory.sad: Thank you, eel.
+[label after]
+hesper.neutral: Bren. Something happened tonight. In the fight.
+bren.neutral: A lot of things happened tonight.
+hesper.neutral: I healed you. Twice. And Aldous. And that boy on the walkway.
+hesper.neutral: We're two days from the nearest Ledger chapel. I've sworn a heretic's oath. I've no right to the Witness's grace. And it came anyway. Stronger than it ever came in the Archive. || Bewildered. Almost frightened by it.
+eira.neutral: Of course it did. Did you think the book was doing it?
+hesper.surprised: ...
+eira.neutral: Grace comes from kept promises, Sister. Yours. Not from the shelf they are filed on.
+hesper.sad: Then everything they taught me...
+eira.neutral: Some of it was true. The rest was rent.
+aldous.neutral: Brother Crane had orders on him. Sealed, but seals are only wax.
+aldous.neutral: "The High Auditor awaits the Archive escort at Saint Ebbe's, on Hollin Tor. Bring the novice there."
+bren.neutral: Hollin Tor. Odo's crossroads.
+hesper.determined: Morrow has the box. Whatever's in it, Odo read it and it killed him. Wat and Merrit died for it.
+hesper.determined: I want to read it, Bren. I want to know what's worth that.
+bren.neutral: Then we go and get it.
+eira.neutral: I will come.
+tamsin.neutral: You? Why?
+eira.neutral: Because a High Auditor struck a recorded oath in front of witnesses and Hollows rose out of nothing. I have spent a year trying to prove that is possible.
+eira.smirk: Also, you are the most interesting people I have ever met. And you will all die without someone who can count.
+jory.neutral: And me. Wherever you put me.

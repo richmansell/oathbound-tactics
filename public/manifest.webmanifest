@@ -1,0 +1,15 @@
+{
+  "name": "Oathbound Tactics",
+  "short_name": "Oathbound",
+  "description": "An isometric tactics RPG of promises kept and broken.",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#070b16",
+  "theme_color": "#0b1020",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

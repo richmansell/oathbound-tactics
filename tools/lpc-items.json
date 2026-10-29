@@ -1,0 +1,166 @@
+{
+  "$comment": "Curated LPC items imported by tools/lpc-import.mjs (npm run assets:lpc). Keys are upstream sheet-definition filenames without .json and are used verbatim as catalogue keys. To add an item: append its key to a group, re-run the importer. Per-item tweaks go in 'overrides'.",
+  "source": {
+    "repo": "https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator.git",
+    "ref": "86160e7507d6841259cff624a51a63c1d4847ee3"
+  },
+  "bodyTypes": ["male", "female", "muscular"],
+  "animations": [
+    "idle", "combat_idle", "walk", "slash", "backslash", "halfslash", "thrust",
+    "spellcast", "shoot", "hurt", "jump", "emote", "sit"
+  ],
+  "customAnimations": [
+    "slash_oversize", "slash_reverse_oversize", "thrust_oversize", "walk_128",
+    "slash_128", "backslash_128", "halfslash_128", "thrust_128"
+  ],
+  "variantCap": 8,
+  "variantPreference": [
+    "steel", "white", "black", "brown", "red", "blue", "green", "gray", "iron", "gold",
+    "silver", "bronze", "navy", "maroon", "forest", "purple", "leather", "tan", "teal",
+    "yellow", "charcoal", "walnut", "brass", "copper", "ceramic", "medium", "light", "dark"
+  ],
+  "paletteConversion": {
+    "$comment": "File-variant items whose variants are exactly palette swaps of a base file are converted to runtime palette recolours (ship 1 file, get every dye). Each candidate is verified pixel-by-pixel; failures stay as capped file variants.",
+    "materials": { "cloth": "white", "metal": "steel" },
+    "minMatchingVariants": 4,
+    "maxMismatchRatio": 0.005
+  },
+  "groups": {
+    "body": [
+      "body", "body_skeleton", "body_zombie", "shadow"
+    ],
+    "heads": [
+      "heads_human_male", "heads_human_female", "heads_human_male_elderly",
+      "heads_human_female_elderly", "heads_human_male_gaunt", "heads_human_male_plump",
+      "heads_orc_male", "heads_orc_female", "heads_goblin", "heads_wolf_male", "heads_wolf_female",
+      "heads_lizard_male", "heads_lizard_female", "heads_minotaur", "heads_minotaur_female",
+      "heads_skeleton", "heads_zombie", "heads_troll", "heads_boarman", "heads_vampire"
+    ],
+    "face": [
+      "head_ears_elven", "head_ears_long", "eyebrows_thick", "eyebrows_thin"
+    ],
+    "hair": [
+      "hair_plain", "hair_bangs", "hair_bangsshort", "hair_bedhead", "hair_messy1", "hair_messy2",
+      "hair_parted", "hair_pixie", "hair_spiked", "hair_spiked2", "hair_swoop", "hair_unkempt",
+      "hair_long", "hair_long_straight", "hair_long_messy", "hair_wavy", "hair_ponytail",
+      "hair_ponytail2", "hair_high_ponytail", "hair_braid", "hair_bob", "hair_bob_side_part",
+      "hair_bangs_bun", "hair_pigtails_bangs", "hair_princess", "hair_xlong", "hair_shoulderl",
+      "hair_curly_short", "hair_curly_long", "hair_afro", "hair_buzzcut", "hair_balding",
+      "hair_shorthawk", "hair_longhawk", "hair_cornrows", "hair_dreadlocks_short",
+      "hair_topknot_short", "hair_half_up", "hair_loose", "hair_page", "hair_relm_short", "hair_sara"
+    ],
+    "beards": [
+      "beards_beard", "beards_medium", "beards_trimmed", "beards_5oclock_shadow", "beards_winter",
+      "beards_mustache", "beards_bigstache", "beards_handlebar"
+    ],
+    "torso": [
+      "torso_clothes_longsleeve", "torso_clothes_longsleeve2", "torso_clothes_shortsleeve",
+      "torso_clothes_tshirt", "torso_clothes_sleeveless2", "torso_clothes_tunic", "torso_clothes_robe",
+      "torso_clothes_blouse", "torso_clothes_corset", "torso_clothes_vest", "torso_clothes_vest_open",
+      "torso_jacket_tabard", "torso_jacket_collared", "torso_jacket_frock", "torso_jacket_trench",
+      "torso_jacket_iverness", "torso_armour_leather", "torso_armour_legion", "torso_armour_plate",
+      "torso_chainmail", "torso_aprons_apron", "torso_aprons_overalls", "torso_bandages",
+      "cape_solid", "cape_tattered", "cape_trim",
+      "belt_leather", "belt_sash", "belt_robe", "belt_mage"
+    ],
+    "arms": [
+      "arms_armour", "arms_bracers", "arms_gloves", "shoulders_legion", "shoulders_pauldrons", "bauldron"
+    ],
+    "legs": [
+      "legs_pants", "legs_pants2", "legs_leggings", "legs_hose", "legs_formal", "legs_pantaloons",
+      "legs_armour", "legs_skirts_plain", "legs_skirt_belle", "legs_skirts_slit", "legs_widepants",
+      "legs_cuffed", "legs_shorts"
+    ],
+    "feet": [
+      "feet_boots_basic", "feet_boots_fold", "feet_boots_revised", "feet_boots_rim",
+      "feet_shoes_basic", "feet_shoes_revised", "feet_sandals", "feet_slippers", "feet_armour",
+      "feet_shoes_ghillies"
+    ],
+    "helmets": [
+      "hat_helmet_armet", "hat_helmet_armet_simple", "hat_helmet_barbarian", "hat_helmet_barbarian_nasal",
+      "hat_helmet_barbarian_viking", "hat_helmet_barbuta", "hat_helmet_barbuta_simple",
+      "hat_helmet_bascinet", "hat_helmet_bascinet_round", "hat_helmet_close", "hat_helmet_flattop",
+      "hat_helmet_greathelm", "hat_helmet_horned", "hat_helmet_kettle", "hat_helmet_legion",
+      "hat_helmet_mail", "hat_helmet_maximus", "hat_helmet_morion", "hat_helmet_nasal",
+      "hat_helmet_norman", "hat_helmet_pointed", "hat_helmet_spangenhelm",
+      "hat_helmet_spangenhelm_viking", "hat_helmet_sugarloaf", "hat_helmet_sugarloaf_simple",
+      "hat_helmet_xeon",
+      "hat_visor_grated", "hat_visor_grated_narrow", "hat_visor_horned", "hat_visor_pigface",
+      "hat_visor_pigface_raised", "hat_visor_round", "hat_visor_round_raised", "hat_visor_slit",
+      "hat_visor_slit_narrow",
+      "hat_accessory_crest", "hat_accessory_crest_centurion", "hat_accessory_horns_downward",
+      "hat_accessory_horns_short", "hat_accessory_horns_upward", "hat_accessory_plumage",
+      "hat_accessory_plumage_centurion", "hat_accessory_plumage_legion", "hat_accessory_wings"
+    ],
+    "hats": [
+      "hat_magic_wizard", "hat_magic_wizard_belt", "hat_magic_wizard_buckle", "hat_magic_celestial",
+      "hat_magic_celestial_moon", "hat_cap_leather", "hat_cap_cavalier", "hat_cap_bonnie_feather",
+      "hat_formal_crown",
+      "hat_hood_cloth", "hat_hood_sack_cloth", "hat_hood_hijab", "hat_bandana", "hat_bandana2",
+      "hat_bandana_pirate", "hat_headband_hairtie", "hat_headband_kerchief", "hat_headband_thick",
+      "hat_headband_thick_rune", "hat_headband_tied", "facial_mask_plain"
+    ],
+    "neck": [
+      "neck_amulet_cross", "neck_necklace", "neck_capeclip", "neck_capetie", "neck_scarf"
+    ],
+    "weapons": [
+      "weapon_sword_arming", "weapon_sword_dagger", "weapon_sword_katana", "weapon_sword_longsword",
+      "weapon_sword_rapier", "weapon_sword_saber", "weapon_sword_scimitar", "weapon_sword_glowsword",
+      "weapon_blunt_club", "weapon_blunt_flail", "weapon_blunt_mace", "weapon_blunt_waraxe",
+      "weapon_polearm_spear", "weapon_polearm_longspear", "weapon_polearm_trident",
+      "weapon_polearm_dragonspear", "weapon_polearm_halberd", "weapon_polearm_scythe",
+      "weapon_magic_simple", "weapon_magic_gnarled", "weapon_magic_crystal", "weapon_magic_diamond",
+      "weapon_magic_loop", "weapon_magic_s", "weapon_magic_wand",
+      "weapon_ranged_bow_normal", "weapon_ranged_bow_recurve", "weapon_ranged_bow_great",
+      "weapon_ranged_bow_arrow", "weapon_ranged_crossbow", "weapon_ranged_slingshot",
+      "weapon_ranged_boomerang", "quiver"
+    ],
+    "shields": [
+      "shield_round", "shield_kite", "shield_heater_revised_paint", "shield_heater_revised_trim",
+      "shield_heater_revised_wood", "shield_heater_revised_pattern_cross",
+      "shield_heater_revised_pattern_chevron", "shield_heater_revised_pattern_quarterly",
+      "shield_heater_revised_pattern_saltire", "shield_crusader", "shield_spartan", "shield_scutum",
+      "shield_scutum_trim", "shield_plus", "shield_two_engrailed", "shield_two_engrailed_trim"
+    ]
+  },
+  "overrides": {
+    "weapon_sword_arming":      { "weapon": "sword",    "attack": "slash" },
+    "weapon_sword_dagger":      { "weapon": "knife",    "attack": "slash" },
+    "weapon_sword_katana":      { "weapon": "katana",   "attack": "slash" },
+    "weapon_sword_longsword":   { "weapon": "sword",    "attack": "slash" },
+    "weapon_sword_rapier":      { "weapon": "sword",    "attack": "slash" },
+    "weapon_sword_saber":       { "weapon": "sword",    "attack": "slash" },
+    "weapon_sword_scimitar":    { "weapon": "sword",    "attack": "slash" },
+    "weapon_sword_glowsword":   { "weapon": "sword",    "attack": "slash" },
+    "weapon_blunt_club":        { "weapon": "club",     "attack": "slash" },
+    "weapon_blunt_flail":       { "weapon": "flail",    "attack": "slash" },
+    "weapon_blunt_mace":        { "weapon": "mace",     "attack": "slash" },
+    "weapon_blunt_waraxe":      { "weapon": "axe",      "attack": "slash" },
+    "weapon_polearm_spear":     { "weapon": "spear",    "attack": "thrust" },
+    "weapon_polearm_longspear": { "weapon": "spear",    "attack": "thrust" },
+    "weapon_polearm_trident":   { "weapon": "spear",    "attack": "thrust" },
+    "weapon_polearm_dragonspear": { "weapon": "spear",  "attack": "thrust" },
+    "weapon_polearm_halberd":   { "weapon": "polearm",  "attack": "thrust" },
+    "weapon_polearm_scythe":    { "weapon": "polearm",  "attack": "slash" },
+    "weapon_magic_simple":      { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_gnarled":     { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_crystal":     { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_diamond":     { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_loop":        { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_s":           { "weapon": "staff",    "attack": "thrust" },
+    "weapon_magic_wand":        { "weapon": "rod",      "attack": "slash" },
+    "weapon_ranged_bow_normal": { "weapon": "bow", "attack": "shoot", "name": "Bow", "with": ["weapon_ranged_bow_arrow"] },
+    "weapon_ranged_bow_recurve": { "weapon": "bow", "attack": "shoot", "name": "Recurve Bow", "with": ["weapon_ranged_bow_arrow"] },
+    "weapon_ranged_bow_great":  { "weapon": "bow", "attack": "shoot", "name": "Great Bow", "with": ["weapon_ranged_bow_arrow"] },
+    "weapon_ranged_bow_arrow":  { "name": "Arrow (bow ammo)" },
+    "weapon_ranged_crossbow":   { "weapon": "crossbow", "attack": "thrust" },
+    "weapon_ranged_slingshot":  { "weapon": "sling",    "attack": "shoot" },
+    "weapon_ranged_boomerang":  { "weapon": "throwing", "attack": "slash" },
+    "torso_clothes_robe":       { "variants": ["white", "black", "brown", "red", "blue", "purple", "forest green", "dark gray"] },
+    "torso_jacket_collared":    { "extraVariants": ["brown striped"] },
+    "hat_magic_wizard":         { "extraVariants": ["base_black", "base_brown", "base_gray", "base_red", "base_teal", "base_yellow"] },
+    "hat_formal_crown":         { "variants": ["crown_gold", "crown_red", "crown_blue", "crown_gray", "gold", "silver", "steel", "bronze"] },
+    "neck_amulet_cross":        { "variants": ["gold_red", "gold_blue", "silver_blue", "silver_green", "steel_red", "bronze_green", "brass_purple", "iron_yellow"] },
+    "shield_kite":              { "variants": ["kite gray", "kite blue blue", "kite red gray", "kite green gray", "kite gray blue", "kite orange", "kite gray orange", "kite blue gray"] }
+  }
+}

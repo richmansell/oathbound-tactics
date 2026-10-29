@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portrait Lab — Oathbound Tactics</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; background: #1b1a24; color: #e8e2d6; font: 14px/1.4 system-ui, sans-serif; }
+    header { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 10px 16px; background: #24222f; border-bottom: 1px solid #3a3648; }
+    header h1 { font-size: 16px; margin: 0 12px 0 0; }
+    button { background: #363247; color: inherit; border: 1px solid #4d4862; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+    button.on { background: #6b5a2e; border-color: #b8963e; }
+    main { padding: 16px; overflow-x: auto; }
+    table { border-collapse: separate; border-spacing: 6px; }
+    th { font-weight: 600; font-size: 12px; color: #b8b0c8; text-align: left; white-space: nowrap; }
+    td.name { font-size: 12px; max-width: 120px; color: #cfc6dc; }
+    .frame { display: block; background: linear-gradient(#4a4254, #2e2a38); border: 2px solid #6b5a2e; border-radius: 4px; box-shadow: inset 0 0 0 1px #1a1720; }
+    .frame canvas { display: block; image-rendering: pixelated; }
+    .note { color: #8f87a0; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portrait Lab</h1>
+    <span>Scale:</span>
+    <span id="scales"></span>
+    <button id="flip">Flip</button>
+    <button id="reroll">Re-roll recruits</button>
+    <span class="note" id="stats"></span>
+  </header>
+  <main><table id="grid"></table></main>
+  <script type="module" src="/src/labs/portrait-lab.ts"></script>
+</body>
+</html>

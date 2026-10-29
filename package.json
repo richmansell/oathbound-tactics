@@ -1,0 +1,37 @@
+{
+  "name": "oathbound-tactics",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "assets:lpc": "node tools/lpc-import.mjs",
+    "server": "tsx server/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.6",
+    "@types/pngjs": "^6.0.5",
+    "@types/ws": "^8.18.2",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "@fontsource/alegreya-sans": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/crimson-pro": "^5.3.0",
+    "@fontsource/pixelify-sans": "^5.3.0",
+    "preact": "^11.1.0",
+    "ws": "^8.22.0"
+  },
+  "private": true
+}

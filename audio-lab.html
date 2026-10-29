@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Oathbound Tactics — Audio Lab</title>
+    <style>
+      :root { color-scheme: dark; --bg: #14121a; --panel: #1f1b29; --ink: #ece6d6; --dim: #9a91a8; --gold: #d8b25a; --line: #3a3348; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font: 14px/1.4 system-ui, -apple-system, Segoe UI, sans-serif; background: var(--bg); color: var(--ink); }
+      header { position: sticky; top: 0; z-index: 2; background: #0f0d14ee; backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); padding: 10px 16px; }
+      h1 { margin: 0 0 6px; font-size: 18px; color: var(--gold); letter-spacing: 0.03em; }
+      h2 { font-size: 15px; margin: 18px 0 8px; color: var(--gold); }
+      h3 { font-size: 12px; margin: 12px 0 6px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.08em; }
+      main { padding: 8px 16px 48px; max-width: 1200px; margin: 0 auto; }
+      .row { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
+      .tracks { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+      .track { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+      .track.playing { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold) inset; }
+      .track b { display: block; }
+      .track small { color: var(--dim); display: block; margin: 2px 0 6px; }
+      button { font: inherit; color: var(--ink); background: #2b2538; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; touch-action: manipulation; }
+      button:hover { border-color: var(--gold); }
+      button:active { transform: translateY(1px); }
+      .grid button { text-align: left; }
+      label { color: var(--dim); display: inline-flex; gap: 6px; align-items: center; }
+      input[type=range] { width: 120px; accent-color: var(--gold); }
+      input[type=number] { width: 70px; background: #2b2538; color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 3px; }
+      #status { color: var(--dim); font-size: 12px; }
+      #log { font: 12px/1.4 ui-monospace, Menlo, monospace; color: var(--dim); white-space: pre-wrap; max-height: 160px; overflow: auto; background: #0f0d14; border: 1px solid var(--line); border-radius: 6px; padding: 6px; }
+      #dialogue { min-height: 3.2em; background: #0f0d14; border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 16px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Audio Lab</h1>
+      <div class="row" id="mixer"></div>
+      <div id="status">Tap anywhere to unlock audio.</div>
+    </header>
+    <main id="app"></main>
+    <script type="module" src="/src/labs/audio-lab.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+/* Oathbound Tactics — UI design system.
+   "Ledger" aesthetic: ink-blue lacquered panels, thin gilt double borders,
+   parchment text. Touch-first: targets ≥ 44px. */
+
+:root {
+  --ink-0: #070b16;
+  --ink-1: #0b1122;
+  --ink-2: #111a33;
+  --ink-3: #1a2647;
+  --ink-4: #26365f;
+  --panel: rgba(12, 19, 40, 0.92);
+  --panel-2: rgba(20, 31, 62, 0.94);
+  --panel-hi: rgba(38, 56, 104, 0.95);
+  --gold: #d8b45a;
+  --gold-2: #f0d890;
+  --gold-dim: #8a7034;
+  --parch: #efe6cf;
+  --parch-dim: #b9ad92;
+  --muted: #8d97b3;
+  --hp: #6ae07a;
+  --mp: #6aa8ff;
+  --ct: #ffd54a;
+  --danger: #ff6a5a;
+  --ally: #5aa8ff;
+  --enemy: #ff6a5a;
+  --good: #7cf2b2;
+  --radius: 6px;
+  --gap: 10px;
+  --font-title: 'Cinzel', 'Times New Roman', serif;
+  --font-body: 'Alegreya Sans', 'Segoe UI', system-ui, sans-serif;
+  --font-story: 'Crimson Pro', Georgia, serif;
+  --font-num: 'Pixelify Sans', ui-monospace, monospace;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body, #app { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+body {
+  background: var(--ink-0);
+  color: var(--parch);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  -webkit-user-select: none;
+  overscroll-behavior: none;
+}
+button { font: inherit; color: inherit; }
+
+/* ---------- Panels ---------- */
+.panel {
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--gold-dim);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 0 3px rgba(216,180,90,0.18), var(--shadow);
+  border-radius: var(--radius);
+  position: relative;
+}
+.panel::before {
+  content: '';
+  position: absolute; inset: 3px;
+  border: 1px solid rgba(216, 180, 90, 0.35);
+  border-radius: calc(var(--radius) - 2px);
+  pointer-events: none;
+}
+.panel-title {
+  font-family: var(--font-title);
+  color: var(--gold-2);
+  letter-spacing: 0.06em;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px 12px 4px;
+  border-bottom: 1px solid rgba(216,180,90,0.25);
+}
+
+/* ---------- Buttons / menu items ---------- */
+.btn {
+  appearance: none;
+  background: linear-gradient(180deg, #24365f, #16223f);
+  border: 1px solid var(--gold-dim);
+  color: var(--parch);
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-family: var(--font-title);
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 2px 6px rgba(0,0,0,0.4);
+  transition: transform 0.06s, background 0.12s, border-color 0.12s;
+}
+.btn:hover:not(:disabled) { border-color: var(--gold); background: linear-gradient(180deg, #2e4677, #1b2a4f); }
+.btn:active:not(:disabled) { transform: translateY(1px); }
+.btn:disabled { opacity: 0.45; cursor: default; }
+.btn.primary { background: linear-gradient(180deg, #8a6a24, #5a4316); border-color: var(--gold); color: #fff6dc; }
+.btn.primary:hover:not(:disabled) { background: linear-gradient(180deg, #a07c2c, #6a501c); }
+.btn.ghost { background: transparent; box-shadow: none; }
+.btn.small { min-height: 34px; padding: 4px 10px; font-size: 13px; }
+.btn.danger { border-color: #a04040; }
+
+.menu { display: flex; flex-direction: column; padding: 6px; gap: 2px; }
+.menu-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  min-height: 42px; padding: 6px 12px;
+  border-radius: 4px; cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 16px;
+  background: none; text-align: left; width: 100%;
+}
+.menu-item:hover:not(.disabled), .menu-item.focus { background: linear-gradient(90deg, rgba(216,180,90,0.22), rgba(216,180,90,0.04)); border-color: rgba(216,180,90,0.45); }
+.menu-item.disabled { opacity: 0.4; cursor: default; }
+.menu-item .meta { font-family: var(--font-num); font-size: 13px; color: var(--muted); }
+.menu-item .hand { width: 14px; color: var(--gold-2); }
+
+/* ---------- Bars ---------- */
+.bar { height: 6px; background: rgba(0,0,0,0.55); border-radius: 3px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); }
+.bar > i { display: block; height: 100%; border-radius: 2px; transition: width 0.35s ease; }
+.bar.hp > i { background: linear-gradient(90deg, #3aa04a, var(--hp)); }
+.bar.mp > i { background: linear-gradient(90deg, #3a6ad0, var(--mp)); }
+.bar.ct > i { background: linear-gradient(90deg, #b08a20, var(--ct)); }
+.bar.exp > i { background: linear-gradient(90deg, #8a50c0, #c890ff); }
+
+.num { font-family: var(--font-num); letter-spacing: 0.02em; }
+.label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+.gold-text { color: var(--gold-2); }
+.title-font { font-family: var(--font-title); }
+
+/* ---------- Layout helpers ---------- */
+.screen { position: absolute; inset: 0; overflow: hidden; }
+.fill { position: absolute; inset: 0; }
+.row { display: flex; align-items: center; gap: var(--gap); }
+.col { display: flex; flex-direction: column; gap: var(--gap); }
+.spacer { flex: 1; }
+.scroll { overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.scroll::-webkit-scrollbar { width: 6px; }
+.scroll::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 3px; }
+
+.fade-in { animation: fadeIn 0.35s ease both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.pop-in { animation: popIn 0.22s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes popIn { from { opacity: 0; transform: scale(0.92); } to { opacity: 1; transform: none; } }
+
+.tooltip {
+  position: absolute; z-index: 50; pointer-events: none;
+  padding: 8px 10px; max-width: 280px; font-size: 14px;
+}
+
+/* Toast */
+.toast-wrap { position: absolute; left: 50%; top: calc(14px + var(--safe-top)); transform: translateX(-50%); z-index: 100; display: flex; flex-direction: column; gap: 6px; align-items: center; pointer-events: none; }
+.toast { padding: 8px 16px; font-family: var(--font-title); letter-spacing: 0.04em; animation: popIn 0.25s both; }
+
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .panel-title { font-size: 12px; }
+}
